@@ -27,7 +27,7 @@ def run_SafeOpt(n_iters,
                 f, h, 
                  x00, x_opt, 
                  d, m, 
-                 sigma, bnd):
+                 sigma, bnd, gp_var = 0.01):
     
     x = np.array([x00])
     y0 = np.array([[-f(x00)]])
@@ -35,7 +35,7 @@ def run_SafeOpt(n_iters,
     y0m = [y0] + [np.array([[ys[i]]]) for i in range(0, m)]
     gp = [GPy.models.GPRegression(x, 
                                   y, 
-                                  noise_var=0.01**2) for y in y0m]
+                                  noise_var=gp_var**2) for y in y0m]
 
     bounds = []
     for i in range(d):
@@ -56,8 +56,7 @@ def run_SafeOpt(n_iters,
     elif d > 2:
         opt = SafeOptSwarm(gp,
                            bounds=bounds, 
-                           fmin=fmin_list,
-                           lipschitz=lipschitz_list
+                           fmin=fmin_list
                            )
     else: 
         print("wrong dimension")
