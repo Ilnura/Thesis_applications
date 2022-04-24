@@ -9,6 +9,13 @@ from matplotlib.lines import Line2D
 import matplotlib.patches as mpatches
 
 import matplotlib.pyplot as plt
+
+import matplotlib.patches as mpatches
+
+plt.rcParams["text.usetex"] = True
+plt.rcParams["font.family"] = "serif"
+plt.rcParams["font.serif"] = "Times New Roman"
+
 # %matplotlib inline
 
 def PlotTrajectory(x, x0, x_opt, g):
@@ -101,10 +108,21 @@ def PlotConvergenceShaded(els,
             plt.plot(range(np.size(el_avg)), 
                      el_avg, label='average accuracy', 
                      color=colors[i])
-            plt.ylabel(r"$f(x_t) - f^*$", fontsize=fontsize)
+            plt.ylabel(r"$f^0(x_t) - f^0(x^*)$", fontsize=fontsize)
+            plt.xlabel(r"$t$", fontsize=fontsize)
+        elif m == "values":
+            plt.plot(range(np.size(el_avg)), 
+                     el_avg, label='average objective', 
+                     color=colors[i])
+            plt.ylabel(r"$f^0(x_t)$", fontsize=fontsize)
             plt.xlabel(r"$t$", fontsize=fontsize)
         elif m == "constraints":
-            plt.plot(range(np.size(el_avg)), 
+            if legends[i] == "Threshold":
+                plt.plot(range(np.size(el_avg)), 
+                     el_avg, label='average constraint', 
+                     color=colors[i], linestyle='dashed')
+            else: 
+                plt.plot(range(np.size(el_avg)), 
                      el_avg, label='average constraint', 
                      color=colors[i])
             plt.ylabel(r"$\max_i f^i(x_t)$", fontsize=fontsize)
@@ -124,3 +142,45 @@ def PlotConvergenceShaded(els,
     plt.savefig(fname)
     plt.show()
     return 0
+
+
+####################################################################################
+###     Yardens version  #####################################################
+#########################################################################
+
+def plot_convergence_shaded(ax, els, 
+        experiments_num, 
+        m, fname, 
+        colors=['royalblue', 'orange'], 
+        legends=['LogBarrier', 'SafeOpt', r'Threshold'], 
+        fontsize=11, 
+        labelsize=11):
+    for i, el in enumerate(els):
+        if experiments_num > 1:
+            el_avg = np.mean(el, axis=0)
+            el_max = np.max(el, axis=0)
+            el_min = np.min(el, axis=0)
+            el_std = np.std(el, axis=0)
+        else:
+            el_avg = el
+            el_max = el
+            el_min = el
+            el_std = np.zeros(np.size(el))
+        ax.fill_between(range(np.size(el_avg)), 
+                             el_min, el_max,
+                              alpha=0.2, edgecolor=None)
+        if legends[i] == r'Threshold':
+            attributes = dict(linestyle='dashed', color = 'orangered', linewidth= 2.)
+#             2.5)
+        else:
+            linestyle = attributes = dict(linewidth = 1.)
+        ax.plot(range(np.size(el_avg)), 
+        el_avg, label=legends[i], **attributes)
+        label = dict(accuracy=r"$|f^0(x_t) - f^0(x^*)|$""\n(Accuracy)", 
+                     constraints=r"$\max_i f^i(x_t)$""\n(Constraints)",
+                     values = r"$f^0(x_t)$""\n(Values)",
+                     grad_norms=r"$\|\nabla f(x_t)\|$""\n(Gradients Norm)")[m]
+        if ax.is_last_row():
+            ax.set_xlabel(r"$t$", fontsize=fontsize)
+        if ax.is_first_col():
+            ax.set_ylabel(label, fontsize=fontsize)

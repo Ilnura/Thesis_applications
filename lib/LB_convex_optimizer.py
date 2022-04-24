@@ -13,6 +13,7 @@ from matplotlib import rc
 rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
 rc('text', usetex=True)
 import numdifftools as nd
+from time import time
 
 from typing import Callable
 from dataclasses import dataclass

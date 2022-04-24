@@ -12,7 +12,7 @@ import matplotlib.lines as lines
 from matplotlib.lines import Line2D
 import matplotlib.patches as mpatches
 import lib.LB_convex_optimizer as LB
-from lib.functions_plots import PlotTrajectory, PlotConvergence, PlotConvergenceShaded
+from lib.functions_plots import PlotTrajectory, PlotConvergence, PlotConvergenceShaded, plot_convergence_shaded
 
 
 from matplotlib import rc
@@ -27,32 +27,36 @@ def run_SafeOpt(n_iters,
                 f, h, 
                  x00, x_opt, 
                  d, m, 
-                 sigma, bnd, gp_var = 0.01):
+                 sigma, bnd_l, bnd_u, gp_var = 0.01, L = 0.25, gp_num_samples = 50):
     
     x = np.array([x00])
     y0 = np.array([[-f(x00)]])
     ys = -h(x00)
-    y0m = [y0] + [np.array([[ys[i]]]) for i in range(0, m)]
+    if m > 1:
+        y0m = [y0] + [np.array([[ys[i]]]) for i in range(0, m)]
+    else:
+        y0m = [y0] + [np.array([[ys]])]
+
     gp = [GPy.models.GPRegression(x, 
                                   y, 
                                   noise_var=gp_var**2) for y in y0m]
 
     bounds = []
     for i in range(d):
-        bounds.append([-1. * bnd, bnd])
+        bounds.append([bnd_l, bnd_u])
 
     fmin_list = [-np.inf]
-    lipschitz_list = [0.25]
+    lipschitz_list = [L]
     for i in range(m):
         fmin_list.append(0.)
         lipschitz_list.append(1.)
         
     if d <= 2:
-        parameter_set = linearly_spaced_combinations(bounds, num_samples=50)
+        parameter_set = linearly_spaced_combinations(bounds, num_samples=gp_num_samples)
         opt = SafeOpt(gp, 
                       parameter_set, 
-                      fmin=fmin_list, 
-                      lipschitz=lipschitz_list)
+                      fmin=fmin_list
+                     ,lipschitz=lipschitz_list)
     elif d > 2:
         opt = SafeOptSwarm(gp,
                            bounds=bounds, 
@@ -70,7 +74,11 @@ def run_SafeOpt(n_iters,
         x = opt.optimize()
         y0 = np.array([[-f(x) ]]) + np.random.normal(0, sigma)
         ys = -h(x)  + np.random.normal(0, sigma, m)
-        y0m = [y0] + [np.array([[ys[i]]]) for i in range(0, m)]
+        if m > 1:
+            y0m = [y0] + [np.array([[ys[i]]]) for i in range(0, m)]
+        else:
+            y0m = [y0] + [np.array([[ys]])]
+
         f_list = []
         for y in y0m:
             f_list.append(float(y))
