@@ -27,7 +27,7 @@ def run_SafeOpt(n_iters,
                 f, h, 
                  x00, x_opt, 
                  d, m, 
-                 sigma, bnd_l, bnd_u, gp_var = 0.01, L = 0.25, gp_num_samples = 50):
+                 sigma, bnd_l, bnd_u, gp_var = 0.01, L = 0.25, gp_num_samples = 50, linear_cons = False):
     
     x = np.array([x00])
     y0 = np.array([[-f(x00)]])
@@ -37,7 +37,17 @@ def run_SafeOpt(n_iters,
     else:
         y0m = [y0] + [np.array([[ys]])]
 
-    gp = [GPy.models.GPRegression(x, 
+    if linear_cons:
+        gp_cons = [GPy.models.GPRegression(x, 
+                                  y, 
+                                  noise_var=gp_var**2) for y in y0m[1:]]
+        gp_obj = [GPy.models.GPRegression(x, 
+                                  y0, 
+                                  noise_var=gp_var**2)]
+        gp = gp_obj + gp_cons
+    
+    else: 
+        gp = [GPy.models.GPRegression(x, 
                                   y, 
                                   noise_var=gp_var**2) for y in y0m]
 

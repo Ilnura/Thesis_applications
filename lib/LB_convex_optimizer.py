@@ -111,6 +111,7 @@ class SafeLogBarrierOptimizer:
     constraints_total: list = None
     beta: float = None
     factor: float = 0.5
+    runtimes: list = None
     
 # step size
     def compute_gamma(self, t) -> float:
@@ -222,10 +223,13 @@ class SafeLogBarrierOptimizer:
 
         f_0 = self.f(self.x0)
         f_opt = self.f(self.x_opt)
+        
+        time_0 = time() 
         (x_long_trajectory, errors_long_trajectory, 
                             constraints_long_trajectory, 
                             T_total, 
                             x_last) = self.log_barrier_decaying_eta()
+        self.runtimes = [time() - time_0]
 #         PlotTrajectory(x_long_trajectory, self.x0, self.x_opt, self.h)
         x_total = []
         errors_total = []
@@ -240,12 +244,13 @@ class SafeLogBarrierOptimizer:
                 f_0 = self.f(self.x0)
             else:
                 self.x0 = self.x00
-            
+                
+            time_0 = time() 
             (x_long_trajectory, errors_long_trajectory, 
                                 constraints_long_trajectory, 
                                 T_total, 
                                 x_last) = self.log_barrier_decaying_eta()
-
+            self.runtimes.append(time() - time_0)
             x_total.append(x_long_trajectory)
             errors_total.append(errors_long_trajectory)
             constraints_total.append(constraints_long_trajectory)
