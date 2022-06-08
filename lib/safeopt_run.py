@@ -11,8 +11,8 @@ import matplotlib.lines as lines
 
 from matplotlib.lines import Line2D
 import matplotlib.patches as mpatches
-import lib.LB_convex_optimizer as LB
-from lib.functions_plots import PlotTrajectory, PlotConvergence, PlotConvergenceShaded, plot_convergence_shaded
+import lib.LB_optimizer as LB
+from lib.functions_plots import plot_convergence_shaded
 
 
 from matplotlib import rc
@@ -28,6 +28,25 @@ def run_SafeOpt(n_iters,
                  x00, x_opt, 
                  d, m, 
                  sigma, bnd_l, bnd_u, gp_var = 0.01, L = 0.25, gp_num_samples = 50, linear_cons = False):
+    """
+    Runs SafeOpt method
+    
+    Args:
+        n_iters: int, number of iterations
+        f: callable, objective
+        h: callable, returns the vector of constraint fucntions, m-dimensional
+        x00: array, initial poind, d-dimensional
+        x_opt: array, optimal point
+        d: int, dimensionality
+        m: int, number of constraints
+        sigma: float, noise standard deviation
+        bnd_l: float, lower bound on the box used for gridding
+        bnd_u: float, upper bound on the box used for gridding
+        gp_var: float, variance of the GP model
+        L: float, Lipschitz continuity constant
+        gp_num_samples: int, number of samples initial
+        linear_cons: Bool, if we know that the constraints are linear, we can use linear kernel for them potentially
+    """
     
     x = np.array([x00])
     y0 = np.array([[-f(x00)]])
@@ -104,7 +123,6 @@ def run_SafeOpt(n_iters,
         worst_constraint = np.max(constraints)
         cons_so.append(worst_constraint)
         
-#     opt.plot(n_iters - 1)#, axis=0, figure=None, plot_3d=False)
     x_traj = np.array(x_traj)
     errors_so = np.array(errors_so)
     return x_traj, errors_so, cons_so, gp
