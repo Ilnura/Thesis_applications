@@ -1,0 +1,2159 @@
+2022-05-06 00:09:27 - experiment - INFO: Created a new experiment in runs/Rosenbrock_4.
+2022-05-06 00:09:33 - experiment - INFO: Loaded experiment from runs/Rosenbrock_4.
+2022-05-06 00:09:33 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:09:33 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-05-06 00:09:33 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:09:33 - model - INFO: Using beta=4 .
+2022-05-06 00:09:33 - model - INFO: Using beta=4 .
+2022-05-06 00:09:33 - model - INFO: Using beta=4 .
+2022-05-06 00:09:33 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:09:33 - model - INFO: Using beta=4 .
+2022-05-06 00:09:33 - model - INFO: Using beta=4 .
+2022-05-06 00:09:33 - model - INFO: Using beta=4 .
+2022-05-06 00:09:33 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-05-06 00:09:33 - algorithm - INFO: best_x evaluate, y=-4.13330662772098
+2022-05-06 00:09:33 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:09:33 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/0/Iteration_1.pdf
+2022-05-06 00:09:33 - algorithm - INFO: best_x evaluate, y=-4.041158610452589
+2022-05-06 00:09:33 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:09:34 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/0/Iteration_2.pdf
+2022-05-06 00:09:34 - algorithm - INFO: best_x evaluate, y=-4.0426938563937815
+2022-05-06 00:09:34 - algorithm - INFO: starting 3, line-solver.
+2022-05-06 00:09:34 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/0/Iteration_3.pdf
+2022-05-06 00:09:34 - algorithm - INFO: best_x evaluate, y=-3.598444028577048
+2022-05-06 00:09:34 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:09:34 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/0/Iteration_4.pdf
+2022-05-06 00:09:34 - algorithm - INFO: best_x evaluate, y=-3.250823078013343
+2022-05-06 00:09:34 - algorithm - INFO: starting 5, line-solver.
+2022-05-06 00:09:35 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/0/Iteration_5.pdf
+2022-05-06 00:09:35 - algorithm - INFO: best_x evaluate, y=-3.1274393987926734
+2022-05-06 00:09:35 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:09:35 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/0/Iteration_6.pdf
+2022-05-06 00:09:35 - algorithm - INFO: best_x evaluate, y=-3.1266748613356676
+2022-05-06 00:09:35 - algorithm - INFO: starting 7, line-solver.
+2022-05-06 00:09:35 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/0/Iteration_7.pdf
+2022-05-06 00:09:35 - algorithm - INFO: best_x evaluate, y=-3.124964475093585
+2022-05-06 00:09:35 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:09:36 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/0/Iteration_8.pdf
+2022-05-06 00:09:36 - algorithm - INFO: best_x evaluate, y=-3.126702142306079
+2022-05-06 00:09:36 - algorithm - INFO: starting 9, line-solver.
+2022-05-06 00:09:36 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/0/Iteration_9.pdf
+2022-05-06 00:09:36 - algorithm - INFO: best_x evaluate, y=-3.1258880116220613
+2022-05-06 00:09:36 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:09:36 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/0/Iteration_10.pdf
+2022-05-06 00:09:36 - algorithm - INFO: best_x evaluate, y=-3.1318042999186733
+2022-05-06 00:09:36 - algorithm - INFO: starting 11, line-solver.
+2022-05-06 00:09:37 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/0/Iteration_11.pdf
+2022-05-06 00:09:37 - algorithm - INFO: best_x evaluate, y=-3.0928771289725794
+2022-05-06 00:09:37 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:09:37 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/0/Iteration_12.pdf
+2022-05-06 00:09:37 - algorithm - INFO: best_x evaluate, y=-3.0809138653254258
+2022-05-06 00:09:37 - algorithm - INFO: starting 13, line-solver.
+2022-05-06 00:09:37 - controller - INFO: Finalizing environment...
+2022-05-06 00:09:37 - controller - INFO: Finalizing: SafeRandomLineBO
+2022-05-06 00:09:37 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:09:37 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-05-06 00:09:37 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:09:37 - model - INFO: Using beta=4 .
+2022-05-06 00:09:37 - model - INFO: Using beta=4 .
+2022-05-06 00:09:37 - model - INFO: Using beta=4 .
+2022-05-06 00:09:37 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:09:37 - model - INFO: Using beta=4 .
+2022-05-06 00:09:37 - model - INFO: Using beta=4 .
+2022-05-06 00:09:37 - model - INFO: Using beta=4 .
+2022-05-06 00:09:37 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-05-06 00:09:37 - algorithm - INFO: best_x evaluate, y=-4.13448393151611
+2022-05-06 00:09:37 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:09:37 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:38 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/1/Iteration_1.pdf
+2022-05-06 00:09:38 - algorithm - INFO: best_x evaluate, y=-3.9025888807312077
+2022-05-06 00:09:38 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:09:38 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/1/Iteration_2.pdf
+2022-05-06 00:09:38 - algorithm - INFO: best_x evaluate, y=-3.229257200734274
+2022-05-06 00:09:38 - algorithm - INFO: starting 3, line-solver.
+2022-05-06 00:09:38 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/1/Iteration_3.pdf
+2022-05-06 00:09:38 - algorithm - INFO: best_x evaluate, y=-3.167957273430166
+2022-05-06 00:09:38 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:09:38 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/1/Iteration_4.pdf
+2022-05-06 00:09:38 - algorithm - INFO: best_x evaluate, y=-3.166430550435437
+2022-05-06 00:09:38 - algorithm - INFO: starting 5, line-solver.
+2022-05-06 00:09:39 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/1/Iteration_5.pdf
+2022-05-06 00:09:39 - algorithm - INFO: best_x evaluate, y=-3.1812184448573624
+2022-05-06 00:09:39 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:09:39 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/1/Iteration_6.pdf
+2022-05-06 00:09:39 - algorithm - INFO: best_x evaluate, y=-3.194729225437388
+2022-05-06 00:09:39 - algorithm - INFO: starting 7, line-solver.
+2022-05-06 00:09:39 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/1/Iteration_7.pdf
+2022-05-06 00:09:39 - algorithm - INFO: best_x evaluate, y=-3.0929270642932676
+2022-05-06 00:09:39 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:09:40 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/1/Iteration_8.pdf
+2022-05-06 00:09:40 - algorithm - INFO: best_x evaluate, y=-3.0674631746344696
+2022-05-06 00:09:40 - algorithm - INFO: starting 9, line-solver.
+2022-05-06 00:09:40 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/1/Iteration_9.pdf
+2022-05-06 00:09:40 - algorithm - INFO: best_x evaluate, y=-3.0537068945517776
+2022-05-06 00:09:40 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:09:40 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/1/Iteration_10.pdf
+2022-05-06 00:09:40 - algorithm - INFO: best_x evaluate, y=-3.003613906448977
+2022-05-06 00:09:40 - algorithm - INFO: starting 11, line-solver.
+2022-05-06 00:09:41 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/1/Iteration_11.pdf
+2022-05-06 00:09:41 - algorithm - INFO: best_x evaluate, y=-2.8671575771470286
+2022-05-06 00:09:41 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:09:41 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/1/Iteration_12.pdf
+2022-05-06 00:09:41 - algorithm - INFO: best_x evaluate, y=-2.8486518271290944
+2022-05-06 00:09:41 - algorithm - INFO: starting 13, line-solver.
+2022-05-06 00:09:41 - controller - INFO: Finalizing environment...
+2022-05-06 00:09:41 - controller - INFO: Finalizing: SafeRandomLineBO
+2022-05-06 00:09:41 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:09:41 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-05-06 00:09:41 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:09:41 - model - INFO: Using beta=4 .
+2022-05-06 00:09:41 - model - INFO: Using beta=4 .
+2022-05-06 00:09:41 - model - INFO: Using beta=4 .
+2022-05-06 00:09:41 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:09:41 - model - INFO: Using beta=4 .
+2022-05-06 00:09:41 - model - INFO: Using beta=4 .
+2022-05-06 00:09:41 - model - INFO: Using beta=4 .
+2022-05-06 00:09:41 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-05-06 00:09:41 - algorithm - INFO: best_x evaluate, y=-4.134390594228224
+2022-05-06 00:09:41 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:09:42 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/2/Iteration_1.pdf
+2022-05-06 00:09:42 - algorithm - INFO: best_x evaluate, y=-3.5435956968421713
+2022-05-06 00:09:42 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:09:42 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/2/Iteration_2.pdf
+2022-05-06 00:09:42 - algorithm - INFO: best_x evaluate, y=-3.5394298316734027
+2022-05-06 00:09:42 - algorithm - INFO: starting 3, line-solver.
+2022-05-06 00:09:42 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/2/Iteration_3.pdf
+2022-05-06 00:09:42 - algorithm - INFO: best_x evaluate, y=-3.5055518226527695
+2022-05-06 00:09:42 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:09:42 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/2/Iteration_4.pdf
+2022-05-06 00:09:42 - algorithm - INFO: best_x evaluate, y=-3.375500733703041
+2022-05-06 00:09:42 - algorithm - INFO: starting 5, line-solver.
+2022-05-06 00:09:43 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/2/Iteration_5.pdf
+2022-05-06 00:09:43 - algorithm - INFO: best_x evaluate, y=-3.2068104070893657
+2022-05-06 00:09:43 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:09:43 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/2/Iteration_6.pdf
+2022-05-06 00:09:43 - algorithm - INFO: best_x evaluate, y=-3.2062720068352197
+2022-05-06 00:09:43 - algorithm - INFO: starting 7, line-solver.
+2022-05-06 00:09:43 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/2/Iteration_7.pdf
+2022-05-06 00:09:43 - algorithm - INFO: best_x evaluate, y=-3.2057932976669736
+2022-05-06 00:09:43 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:09:44 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/2/Iteration_8.pdf
+2022-05-06 00:09:44 - algorithm - INFO: best_x evaluate, y=-3.201973984587296
+2022-05-06 00:09:44 - algorithm - INFO: starting 9, line-solver.
+2022-05-06 00:09:44 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/2/Iteration_9.pdf
+2022-05-06 00:09:44 - algorithm - INFO: best_x evaluate, y=-3.2003270855849935
+2022-05-06 00:09:44 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:09:44 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/2/Iteration_10.pdf
+2022-05-06 00:09:44 - algorithm - INFO: best_x evaluate, y=-3.201561089854847
+2022-05-06 00:09:44 - algorithm - INFO: starting 11, line-solver.
+2022-05-06 00:09:45 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/2/Iteration_11.pdf
+2022-05-06 00:09:45 - algorithm - INFO: best_x evaluate, y=-3.20062920936971
+2022-05-06 00:09:45 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:09:45 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/2/Iteration_12.pdf
+2022-05-06 00:09:45 - algorithm - INFO: best_x evaluate, y=-3.197107143467698
+2022-05-06 00:09:45 - algorithm - INFO: starting 13, line-solver.
+2022-05-06 00:09:45 - controller - INFO: Finalizing environment...
+2022-05-06 00:09:45 - controller - INFO: Finalizing: SafeRandomLineBO
+2022-05-06 00:09:45 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:09:45 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-05-06 00:09:45 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:09:45 - model - INFO: Using beta=4 .
+2022-05-06 00:09:45 - model - INFO: Using beta=4 .
+2022-05-06 00:09:45 - model - INFO: Using beta=4 .
+2022-05-06 00:09:45 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:09:45 - model - INFO: Using beta=4 .
+2022-05-06 00:09:45 - model - INFO: Using beta=4 .
+2022-05-06 00:09:45 - model - INFO: Using beta=4 .
+2022-05-06 00:09:45 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-05-06 00:09:45 - algorithm - INFO: best_x evaluate, y=-4.133480106553697
+2022-05-06 00:09:45 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:09:45 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:46 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/3/Iteration_1.pdf
+2022-05-06 00:09:46 - algorithm - INFO: best_x evaluate, y=-3.3690018514330027
+2022-05-06 00:09:46 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:09:46 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/3/Iteration_2.pdf
+2022-05-06 00:09:46 - algorithm - INFO: best_x evaluate, y=-3.360868997355753
+2022-05-06 00:09:46 - algorithm - INFO: starting 3, line-solver.
+2022-05-06 00:09:46 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/3/Iteration_3.pdf
+2022-05-06 00:09:46 - algorithm - INFO: best_x evaluate, y=-3.141870608987031
+2022-05-06 00:09:46 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:09:46 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/3/Iteration_4.pdf
+2022-05-06 00:09:46 - algorithm - INFO: best_x evaluate, y=-2.9996238699345477
+2022-05-06 00:09:46 - algorithm - INFO: starting 5, line-solver.
+2022-05-06 00:09:47 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/3/Iteration_5.pdf
+2022-05-06 00:09:47 - algorithm - INFO: best_x evaluate, y=-2.9790191940056667
+2022-05-06 00:09:47 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:09:47 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/3/Iteration_6.pdf
+2022-05-06 00:09:47 - algorithm - INFO: best_x evaluate, y=-2.9783363407684376
+2022-05-06 00:09:47 - algorithm - INFO: starting 7, line-solver.
+2022-05-06 00:09:47 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/3/Iteration_7.pdf
+2022-05-06 00:09:47 - algorithm - INFO: best_x evaluate, y=-2.900021411633583
+2022-05-06 00:09:47 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:09:48 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/3/Iteration_8.pdf
+2022-05-06 00:09:48 - algorithm - INFO: best_x evaluate, y=-2.907762141326456
+2022-05-06 00:09:48 - algorithm - INFO: starting 9, line-solver.
+2022-05-06 00:09:48 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/3/Iteration_9.pdf
+2022-05-06 00:09:48 - algorithm - INFO: best_x evaluate, y=-2.9062964443904336
+2022-05-06 00:09:48 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:09:48 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/3/Iteration_10.pdf
+2022-05-06 00:09:48 - algorithm - INFO: best_x evaluate, y=-2.9007078523668244
+2022-05-06 00:09:48 - algorithm - INFO: starting 11, line-solver.
+2022-05-06 00:09:49 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/3/Iteration_11.pdf
+2022-05-06 00:09:49 - algorithm - INFO: best_x evaluate, y=-2.9003502800344254
+2022-05-06 00:09:49 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:09:49 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/3/Iteration_12.pdf
+2022-05-06 00:09:49 - algorithm - INFO: best_x evaluate, y=-2.897063341318935
+2022-05-06 00:09:49 - algorithm - INFO: starting 13, line-solver.
+2022-05-06 00:09:49 - controller - INFO: Finalizing environment...
+2022-05-06 00:09:49 - controller - INFO: Finalizing: SafeRandomLineBO
+2022-05-06 00:09:49 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:09:49 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-05-06 00:09:49 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:09:49 - model - INFO: Using beta=4 .
+2022-05-06 00:09:49 - model - INFO: Using beta=4 .
+2022-05-06 00:09:49 - model - INFO: Using beta=4 .
+2022-05-06 00:09:49 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:09:49 - model - INFO: Using beta=4 .
+2022-05-06 00:09:49 - model - INFO: Using beta=4 .
+2022-05-06 00:09:49 - model - INFO: Using beta=4 .
+2022-05-06 00:09:49 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-05-06 00:09:49 - algorithm - INFO: best_x evaluate, y=-4.134821619938474
+2022-05-06 00:09:49 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:09:50 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/4/Iteration_1.pdf
+2022-05-06 00:09:50 - algorithm - INFO: best_x evaluate, y=-3.7399737694137634
+2022-05-06 00:09:50 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:50 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - controller - INFO: Finalizing environment...
+2022-05-06 00:09:52 - controller - INFO: Finalizing: SafeRandomLineBO
+2022-05-06 00:09:52 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:09:52 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-05-06 00:09:52 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:09:52 - model - INFO: Using beta=4 .
+2022-05-06 00:09:52 - model - INFO: Using beta=4 .
+2022-05-06 00:09:52 - model - INFO: Using beta=4 .
+2022-05-06 00:09:52 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:09:52 - model - INFO: Using beta=4 .
+2022-05-06 00:09:52 - model - INFO: Using beta=4 .
+2022-05-06 00:09:52 - model - INFO: Using beta=4 .
+2022-05-06 00:09:52 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-05-06 00:09:52 - algorithm - INFO: best_x evaluate, y=-4.135792735263993
+2022-05-06 00:09:52 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/5/Iteration_1.pdf
+2022-05-06 00:09:52 - algorithm - INFO: best_x evaluate, y=-3.8419818237162944
+2022-05-06 00:09:52 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:52 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:53 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:54 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:55 - controller - INFO: Finalizing environment...
+2022-05-06 00:09:55 - controller - INFO: Finalizing: SafeRandomLineBO
+2022-05-06 00:09:55 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:09:55 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-05-06 00:09:55 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:09:55 - model - INFO: Using beta=4 .
+2022-05-06 00:09:55 - model - INFO: Using beta=4 .
+2022-05-06 00:09:55 - model - INFO: Using beta=4 .
+2022-05-06 00:09:55 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:09:55 - model - INFO: Using beta=4 .
+2022-05-06 00:09:55 - model - INFO: Using beta=4 .
+2022-05-06 00:09:55 - model - INFO: Using beta=4 .
+2022-05-06 00:09:55 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-05-06 00:09:55 - algorithm - INFO: best_x evaluate, y=-4.136232082249442
+2022-05-06 00:09:55 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:09:55 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/6/Iteration_1.pdf
+2022-05-06 00:09:55 - algorithm - INFO: best_x evaluate, y=-3.806258805277451
+2022-05-06 00:09:55 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:09:55 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/6/Iteration_2.pdf
+2022-05-06 00:09:55 - algorithm - INFO: best_x evaluate, y=-3.2645417566876116
+2022-05-06 00:09:55 - algorithm - INFO: starting 3, line-solver.
+2022-05-06 00:09:56 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/6/Iteration_3.pdf
+2022-05-06 00:09:56 - algorithm - INFO: best_x evaluate, y=-3.2005558830325795
+2022-05-06 00:09:56 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:09:56 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/6/Iteration_4.pdf
+2022-05-06 00:09:56 - algorithm - INFO: best_x evaluate, y=-3.197934270897115
+2022-05-06 00:09:56 - algorithm - INFO: starting 5, line-solver.
+2022-05-06 00:09:56 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/6/Iteration_5.pdf
+2022-05-06 00:09:56 - algorithm - INFO: best_x evaluate, y=-3.1583298427012276
+2022-05-06 00:09:56 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:09:57 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/6/Iteration_6.pdf
+2022-05-06 00:09:57 - algorithm - INFO: best_x evaluate, y=-3.1273181080185157
+2022-05-06 00:09:57 - algorithm - INFO: starting 7, line-solver.
+2022-05-06 00:09:57 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/6/Iteration_7.pdf
+2022-05-06 00:09:57 - algorithm - INFO: best_x evaluate, y=-3.1190544881199793
+2022-05-06 00:09:57 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:09:57 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/6/Iteration_8.pdf
+2022-05-06 00:09:57 - algorithm - INFO: best_x evaluate, y=-3.1229466977227447
+2022-05-06 00:09:57 - algorithm - INFO: starting 9, line-solver.
+2022-05-06 00:09:58 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/6/Iteration_9.pdf
+2022-05-06 00:09:58 - algorithm - INFO: best_x evaluate, y=-3.1223731992213315
+2022-05-06 00:09:58 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:09:58 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/6/Iteration_10.pdf
+2022-05-06 00:09:58 - algorithm - INFO: best_x evaluate, y=-3.10203284291799
+2022-05-06 00:09:58 - algorithm - INFO: starting 11, line-solver.
+2022-05-06 00:09:59 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/6/Iteration_11.pdf
+2022-05-06 00:09:59 - algorithm - INFO: best_x evaluate, y=-3.101052832795251
+2022-05-06 00:09:59 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:09:59 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/6/Iteration_12.pdf
+2022-05-06 00:09:59 - algorithm - INFO: best_x evaluate, y=-2.9329165913308595
+2022-05-06 00:09:59 - algorithm - INFO: starting 13, line-solver.
+2022-05-06 00:09:59 - controller - INFO: Finalizing environment...
+2022-05-06 00:09:59 - controller - INFO: Finalizing: SafeRandomLineBO
+2022-05-06 00:09:59 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:09:59 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-05-06 00:09:59 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:09:59 - model - INFO: Using beta=4 .
+2022-05-06 00:09:59 - model - INFO: Using beta=4 .
+2022-05-06 00:09:59 - model - INFO: Using beta=4 .
+2022-05-06 00:09:59 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:09:59 - model - INFO: Using beta=4 .
+2022-05-06 00:09:59 - model - INFO: Using beta=4 .
+2022-05-06 00:09:59 - model - INFO: Using beta=4 .
+2022-05-06 00:09:59 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-05-06 00:09:59 - algorithm - INFO: best_x evaluate, y=-4.135352252187198
+2022-05-06 00:09:59 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:09:59 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:09:59 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/7/Iteration_1.pdf
+2022-05-06 00:09:59 - algorithm - INFO: best_x evaluate, y=-4.133093045559978
+2022-05-06 00:09:59 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:10:00 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/7/Iteration_2.pdf
+2022-05-06 00:10:00 - algorithm - INFO: best_x evaluate, y=-3.8091929838491807
+2022-05-06 00:10:00 - algorithm - INFO: starting 3, line-solver.
+2022-05-06 00:10:00 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/7/Iteration_3.pdf
+2022-05-06 00:10:00 - algorithm - INFO: best_x evaluate, y=-3.630835692211471
+2022-05-06 00:10:00 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:10:00 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/7/Iteration_4.pdf
+2022-05-06 00:10:00 - algorithm - INFO: best_x evaluate, y=-3.5658446782529407
+2022-05-06 00:10:00 - algorithm - INFO: starting 5, line-solver.
+2022-05-06 00:10:01 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/7/Iteration_5.pdf
+2022-05-06 00:10:01 - algorithm - INFO: best_x evaluate, y=-3.533411883519343
+2022-05-06 00:10:01 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:10:01 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/7/Iteration_6.pdf
+2022-05-06 00:10:01 - algorithm - INFO: best_x evaluate, y=-3.4189693864071233
+2022-05-06 00:10:01 - algorithm - INFO: starting 7, line-solver.
+2022-05-06 00:10:01 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/7/Iteration_7.pdf
+2022-05-06 00:10:01 - algorithm - INFO: best_x evaluate, y=-3.4112317479726477
+2022-05-06 00:10:01 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:10:02 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/7/Iteration_8.pdf
+2022-05-06 00:10:02 - algorithm - INFO: best_x evaluate, y=-3.169454458953433
+2022-05-06 00:10:02 - algorithm - INFO: starting 9, line-solver.
+2022-05-06 00:10:02 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/7/Iteration_9.pdf
+2022-05-06 00:10:02 - algorithm - INFO: best_x evaluate, y=-3.1751549040221394
+2022-05-06 00:10:02 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:10:02 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/7/Iteration_10.pdf
+2022-05-06 00:10:02 - algorithm - INFO: best_x evaluate, y=-3.173003133325177
+2022-05-06 00:10:02 - algorithm - INFO: starting 11, line-solver.
+2022-05-06 00:10:03 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/7/Iteration_11.pdf
+2022-05-06 00:10:03 - algorithm - INFO: best_x evaluate, y=-3.136271050101987
+2022-05-06 00:10:03 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:10:03 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/7/Iteration_12.pdf
+2022-05-06 00:10:03 - algorithm - INFO: best_x evaluate, y=-3.1212091326227744
+2022-05-06 00:10:03 - algorithm - INFO: starting 13, line-solver.
+2022-05-06 00:10:03 - controller - INFO: Finalizing environment...
+2022-05-06 00:10:03 - controller - INFO: Finalizing: SafeRandomLineBO
+2022-05-06 00:10:03 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:10:03 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-05-06 00:10:03 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:03 - model - INFO: Using beta=4 .
+2022-05-06 00:10:03 - model - INFO: Using beta=4 .
+2022-05-06 00:10:03 - model - INFO: Using beta=4 .
+2022-05-06 00:10:03 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:03 - model - INFO: Using beta=4 .
+2022-05-06 00:10:03 - model - INFO: Using beta=4 .
+2022-05-06 00:10:03 - model - INFO: Using beta=4 .
+2022-05-06 00:10:03 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-05-06 00:10:03 - algorithm - INFO: best_x evaluate, y=-4.134745963010449
+2022-05-06 00:10:03 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:10:03 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:10:04 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/8/Iteration_1.pdf
+2022-05-06 00:10:04 - algorithm - INFO: best_x evaluate, y=-4.136221953822077
+2022-05-06 00:10:04 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:10:04 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/8/Iteration_2.pdf
+2022-05-06 00:10:04 - algorithm - INFO: best_x evaluate, y=-4.075686295407941
+2022-05-06 00:10:04 - algorithm - INFO: starting 3, line-solver.
+2022-05-06 00:10:04 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/8/Iteration_3.pdf
+2022-05-06 00:10:04 - algorithm - INFO: best_x evaluate, y=-4.076390449155287
+2022-05-06 00:10:04 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:10:05 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/8/Iteration_4.pdf
+2022-05-06 00:10:05 - algorithm - INFO: best_x evaluate, y=-3.774485483645317
+2022-05-06 00:10:05 - algorithm - INFO: starting 5, line-solver.
+2022-05-06 00:10:05 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/8/Iteration_5.pdf
+2022-05-06 00:10:05 - algorithm - INFO: best_x evaluate, y=-3.515395913022476
+2022-05-06 00:10:05 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:10:05 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/8/Iteration_6.pdf
+2022-05-06 00:10:05 - algorithm - INFO: best_x evaluate, y=-3.494741925862026
+2022-05-06 00:10:05 - algorithm - INFO: starting 7, line-solver.
+2022-05-06 00:10:05 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/8/Iteration_7.pdf
+2022-05-06 00:10:05 - algorithm - INFO: best_x evaluate, y=-3.4789906849930508
+2022-05-06 00:10:06 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:10:06 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/8/Iteration_8.pdf
+2022-05-06 00:10:06 - algorithm - INFO: best_x evaluate, y=-3.420099216325278
+2022-05-06 00:10:06 - algorithm - INFO: starting 9, line-solver.
+2022-05-06 00:10:06 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/8/Iteration_9.pdf
+2022-05-06 00:10:06 - algorithm - INFO: best_x evaluate, y=-3.3236526926044756
+2022-05-06 00:10:06 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:10:07 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/8/Iteration_10.pdf
+2022-05-06 00:10:07 - algorithm - INFO: best_x evaluate, y=-3.3858453926745082
+2022-05-06 00:10:07 - algorithm - INFO: starting 11, line-solver.
+2022-05-06 00:10:07 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/8/Iteration_11.pdf
+2022-05-06 00:10:07 - algorithm - INFO: best_x evaluate, y=-3.3518616822828586
+2022-05-06 00:10:07 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:10:08 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/8/Iteration_12.pdf
+2022-05-06 00:10:08 - algorithm - INFO: best_x evaluate, y=-3.349073723950944
+2022-05-06 00:10:08 - algorithm - INFO: starting 13, line-solver.
+2022-05-06 00:10:08 - controller - INFO: Finalizing environment...
+2022-05-06 00:10:08 - controller - INFO: Finalizing: SafeRandomLineBO
+2022-05-06 00:10:08 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:10:08 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-05-06 00:10:08 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:08 - model - INFO: Using beta=4 .
+2022-05-06 00:10:08 - model - INFO: Using beta=4 .
+2022-05-06 00:10:08 - model - INFO: Using beta=4 .
+2022-05-06 00:10:08 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:08 - model - INFO: Using beta=4 .
+2022-05-06 00:10:08 - model - INFO: Using beta=4 .
+2022-05-06 00:10:08 - model - INFO: Using beta=4 .
+2022-05-06 00:10:08 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-05-06 00:10:08 - algorithm - INFO: best_x evaluate, y=-4.134263354309953
+2022-05-06 00:10:08 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:10:08 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/9/Iteration_1.pdf
+2022-05-06 00:10:08 - algorithm - INFO: best_x evaluate, y=-3.94826467966792
+2022-05-06 00:10:08 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:10:08 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/9/Iteration_2.pdf
+2022-05-06 00:10:08 - algorithm - INFO: best_x evaluate, y=-3.9381761712501993
+2022-05-06 00:10:08 - algorithm - INFO: starting 3, line-solver.
+2022-05-06 00:10:09 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/9/Iteration_3.pdf
+2022-05-06 00:10:09 - algorithm - INFO: best_x evaluate, y=-3.149434573180031
+2022-05-06 00:10:09 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:10:09 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/9/Iteration_4.pdf
+2022-05-06 00:10:09 - algorithm - INFO: best_x evaluate, y=-3.1330035466526236
+2022-05-06 00:10:09 - algorithm - INFO: starting 5, line-solver.
+2022-05-06 00:10:09 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/9/Iteration_5.pdf
+2022-05-06 00:10:09 - algorithm - INFO: best_x evaluate, y=-3.1204759424554274
+2022-05-06 00:10:09 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:10:10 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/9/Iteration_6.pdf
+2022-05-06 00:10:10 - algorithm - INFO: best_x evaluate, y=-3.1101350302605857
+2022-05-06 00:10:10 - algorithm - INFO: starting 7, line-solver.
+2022-05-06 00:10:10 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/9/Iteration_7.pdf
+2022-05-06 00:10:10 - algorithm - INFO: best_x evaluate, y=-3.087500856141402
+2022-05-06 00:10:10 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:10:10 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/9/Iteration_8.pdf
+2022-05-06 00:10:10 - algorithm - INFO: best_x evaluate, y=-3.0471493526670423
+2022-05-06 00:10:10 - algorithm - INFO: starting 9, line-solver.
+2022-05-06 00:10:11 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/9/Iteration_9.pdf
+2022-05-06 00:10:11 - algorithm - INFO: best_x evaluate, y=-3.045833540107209
+2022-05-06 00:10:11 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:10:11 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/9/Iteration_10.pdf
+2022-05-06 00:10:11 - algorithm - INFO: best_x evaluate, y=-3.0428687768464555
+2022-05-06 00:10:11 - algorithm - INFO: starting 11, line-solver.
+2022-05-06 00:10:11 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/9/Iteration_11.pdf
+2022-05-06 00:10:11 - algorithm - INFO: best_x evaluate, y=-3.0185338306339675
+2022-05-06 00:10:11 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:10:12 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/0/9/Iteration_12.pdf
+2022-05-06 00:10:12 - algorithm - INFO: best_x evaluate, y=-3.004562907497936
+2022-05-06 00:10:12 - algorithm - INFO: starting 13, line-solver.
+2022-05-06 00:10:12 - controller - INFO: Finalizing environment...
+2022-05-06 00:10:12 - controller - INFO: Finalizing: SafeRandomLineBO
+2022-05-06 00:10:12 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:10:12 - controller - INFO: Initializing algorithm: SafeCoordinateLineBO.
+2022-05-06 00:10:12 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:12 - model - INFO: Using beta=4 .
+2022-05-06 00:10:12 - model - INFO: Using beta=4 .
+2022-05-06 00:10:12 - model - INFO: Using beta=4 .
+2022-05-06 00:10:12 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:12 - model - INFO: Using beta=4 .
+2022-05-06 00:10:12 - model - INFO: Using beta=4 .
+2022-05-06 00:10:12 - model - INFO: Using beta=4 .
+2022-05-06 00:10:12 - controller - INFO: Starting optimization: SafeCoordinateLineBO
+2022-05-06 00:10:12 - algorithm - INFO: best_x evaluate, y=-4.13502525395912
+2022-05-06 00:10:12 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:10:12 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/0/Iteration_1.pdf
+2022-05-06 00:10:12 - algorithm - INFO: best_x evaluate, y=-3.719527723030455
+2022-05-06 00:10:12 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:10:13 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/0/Iteration_2.pdf
+2022-05-06 00:10:13 - algorithm - INFO: best_x evaluate, y=-3.3338921962965085
+2022-05-06 00:10:13 - algorithm - INFO: starting 3, line-solver.
+2022-05-06 00:10:13 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/0/Iteration_3.pdf
+2022-05-06 00:10:13 - algorithm - INFO: best_x evaluate, y=-3.084727997734939
+2022-05-06 00:10:13 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:10:13 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/0/Iteration_4.pdf
+2022-05-06 00:10:13 - algorithm - INFO: best_x evaluate, y=-2.7259776050480053
+2022-05-06 00:10:13 - algorithm - INFO: starting 5, line-solver.
+2022-05-06 00:10:14 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/0/Iteration_5.pdf
+2022-05-06 00:10:14 - algorithm - INFO: best_x evaluate, y=-2.653851331421748
+2022-05-06 00:10:14 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:10:14 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/0/Iteration_6.pdf
+2022-05-06 00:10:14 - algorithm - INFO: best_x evaluate, y=-2.6567293467401893
+2022-05-06 00:10:14 - algorithm - INFO: starting 7, line-solver.
+2022-05-06 00:10:14 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/0/Iteration_7.pdf
+2022-05-06 00:10:14 - algorithm - INFO: best_x evaluate, y=-2.653476606032795
+2022-05-06 00:10:14 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:10:15 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/0/Iteration_8.pdf
+2022-05-06 00:10:15 - algorithm - INFO: best_x evaluate, y=-2.5598678615062327
+2022-05-06 00:10:15 - algorithm - INFO: starting 9, line-solver.
+2022-05-06 00:10:15 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/0/Iteration_9.pdf
+2022-05-06 00:10:15 - algorithm - INFO: best_x evaluate, y=-2.5099426630317625
+2022-05-06 00:10:15 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:10:15 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/0/Iteration_10.pdf
+2022-05-06 00:10:15 - algorithm - INFO: best_x evaluate, y=-2.5081662414295294
+2022-05-06 00:10:15 - algorithm - INFO: starting 11, line-solver.
+2022-05-06 00:10:16 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/0/Iteration_11.pdf
+2022-05-06 00:10:16 - algorithm - INFO: best_x evaluate, y=-2.509730996175534
+2022-05-06 00:10:16 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:10:16 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/0/Iteration_12.pdf
+2022-05-06 00:10:16 - algorithm - INFO: best_x evaluate, y=-2.488460007177378
+2022-05-06 00:10:16 - algorithm - INFO: starting 13, line-solver.
+2022-05-06 00:10:16 - controller - INFO: Finalizing environment...
+2022-05-06 00:10:16 - controller - INFO: Finalizing: SafeCoordinateLineBO
+2022-05-06 00:10:16 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:10:16 - controller - INFO: Initializing algorithm: SafeCoordinateLineBO.
+2022-05-06 00:10:16 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:16 - model - INFO: Using beta=4 .
+2022-05-06 00:10:16 - model - INFO: Using beta=4 .
+2022-05-06 00:10:16 - model - INFO: Using beta=4 .
+2022-05-06 00:10:16 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:16 - model - INFO: Using beta=4 .
+2022-05-06 00:10:16 - model - INFO: Using beta=4 .
+2022-05-06 00:10:16 - model - INFO: Using beta=4 .
+2022-05-06 00:10:16 - controller - INFO: Starting optimization: SafeCoordinateLineBO
+2022-05-06 00:10:16 - algorithm - INFO: best_x evaluate, y=-4.1347902247030435
+2022-05-06 00:10:16 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:10:17 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/1/Iteration_1.pdf
+2022-05-06 00:10:17 - algorithm - INFO: best_x evaluate, y=-3.719562676394376
+2022-05-06 00:10:17 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:10:17 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/1/Iteration_2.pdf
+2022-05-06 00:10:17 - algorithm - INFO: best_x evaluate, y=-3.3321564242139763
+2022-05-06 00:10:17 - algorithm - INFO: starting 3, line-solver.
+2022-05-06 00:10:17 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/1/Iteration_3.pdf
+2022-05-06 00:10:17 - algorithm - INFO: best_x evaluate, y=-3.087246519063534
+2022-05-06 00:10:17 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:10:18 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/1/Iteration_4.pdf
+2022-05-06 00:10:18 - algorithm - INFO: best_x evaluate, y=-2.7376029221177243
+2022-05-06 00:10:18 - algorithm - INFO: starting 5, line-solver.
+2022-05-06 00:10:18 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/1/Iteration_5.pdf
+2022-05-06 00:10:18 - algorithm - INFO: best_x evaluate, y=-2.6885717626064736
+2022-05-06 00:10:18 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:10:18 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/1/Iteration_6.pdf
+2022-05-06 00:10:18 - algorithm - INFO: best_x evaluate, y=-2.6870813031200824
+2022-05-06 00:10:18 - algorithm - INFO: starting 7, line-solver.
+2022-05-06 00:10:19 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/1/Iteration_7.pdf
+2022-05-06 00:10:19 - algorithm - INFO: best_x evaluate, y=-2.684715319245663
+2022-05-06 00:10:19 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:10:19 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/1/Iteration_8.pdf
+2022-05-06 00:10:19 - algorithm - INFO: best_x evaluate, y=-2.5584957314316448
+2022-05-06 00:10:19 - algorithm - INFO: starting 9, line-solver.
+2022-05-06 00:10:19 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/1/Iteration_9.pdf
+2022-05-06 00:10:19 - algorithm - INFO: best_x evaluate, y=-2.510021289107074
+2022-05-06 00:10:19 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:10:20 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/1/Iteration_10.pdf
+2022-05-06 00:10:20 - algorithm - INFO: best_x evaluate, y=-2.5084344433879733
+2022-05-06 00:10:20 - algorithm - INFO: starting 11, line-solver.
+2022-05-06 00:10:20 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/1/Iteration_11.pdf
+2022-05-06 00:10:20 - algorithm - INFO: best_x evaluate, y=-2.510264653241333
+2022-05-06 00:10:20 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:10:21 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/1/Iteration_12.pdf
+2022-05-06 00:10:21 - algorithm - INFO: best_x evaluate, y=-2.488314829118225
+2022-05-06 00:10:21 - algorithm - INFO: starting 13, line-solver.
+2022-05-06 00:10:21 - controller - INFO: Finalizing environment...
+2022-05-06 00:10:21 - controller - INFO: Finalizing: SafeCoordinateLineBO
+2022-05-06 00:10:21 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:10:21 - controller - INFO: Initializing algorithm: SafeCoordinateLineBO.
+2022-05-06 00:10:21 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:21 - model - INFO: Using beta=4 .
+2022-05-06 00:10:21 - model - INFO: Using beta=4 .
+2022-05-06 00:10:21 - model - INFO: Using beta=4 .
+2022-05-06 00:10:21 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:21 - model - INFO: Using beta=4 .
+2022-05-06 00:10:21 - model - INFO: Using beta=4 .
+2022-05-06 00:10:21 - model - INFO: Using beta=4 .
+2022-05-06 00:10:21 - controller - INFO: Starting optimization: SafeCoordinateLineBO
+2022-05-06 00:10:21 - algorithm - INFO: best_x evaluate, y=-4.132753772147009
+2022-05-06 00:10:21 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:10:21 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/2/Iteration_1.pdf
+2022-05-06 00:10:21 - algorithm - INFO: best_x evaluate, y=-3.720207912766062
+2022-05-06 00:10:21 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:10:21 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/2/Iteration_2.pdf
+2022-05-06 00:10:21 - algorithm - INFO: best_x evaluate, y=-3.333122669702249
+2022-05-06 00:10:21 - algorithm - INFO: starting 3, line-solver.
+2022-05-06 00:10:22 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/2/Iteration_3.pdf
+2022-05-06 00:10:22 - algorithm - INFO: best_x evaluate, y=-3.0841804684863248
+2022-05-06 00:10:22 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:10:22 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/2/Iteration_4.pdf
+2022-05-06 00:10:22 - algorithm - INFO: best_x evaluate, y=-2.7265127956921997
+2022-05-06 00:10:22 - algorithm - INFO: starting 5, line-solver.
+2022-05-06 00:10:22 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/2/Iteration_5.pdf
+2022-05-06 00:10:22 - algorithm - INFO: best_x evaluate, y=-2.6532830587171414
+2022-05-06 00:10:22 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:10:22 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/2/Iteration_6.pdf
+2022-05-06 00:10:22 - algorithm - INFO: best_x evaluate, y=-2.6539515305573906
+2022-05-06 00:10:22 - algorithm - INFO: starting 7, line-solver.
+2022-05-06 00:10:23 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/2/Iteration_7.pdf
+2022-05-06 00:10:23 - algorithm - INFO: best_x evaluate, y=-2.6543708212555845
+2022-05-06 00:10:23 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:10:23 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/2/Iteration_8.pdf
+2022-05-06 00:10:23 - algorithm - INFO: best_x evaluate, y=-2.557860227627164
+2022-05-06 00:10:23 - algorithm - INFO: starting 9, line-solver.
+2022-05-06 00:10:24 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/2/Iteration_9.pdf
+2022-05-06 00:10:24 - algorithm - INFO: best_x evaluate, y=-2.5093119501260617
+2022-05-06 00:10:24 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:10:24 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/2/Iteration_10.pdf
+2022-05-06 00:10:24 - algorithm - INFO: best_x evaluate, y=-2.5082012347020815
+2022-05-06 00:10:24 - algorithm - INFO: starting 11, line-solver.
+2022-05-06 00:10:24 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/2/Iteration_11.pdf
+2022-05-06 00:10:24 - algorithm - INFO: best_x evaluate, y=-2.5084198972123977
+2022-05-06 00:10:24 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:10:25 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/2/Iteration_12.pdf
+2022-05-06 00:10:25 - algorithm - INFO: best_x evaluate, y=-2.4877933969026063
+2022-05-06 00:10:25 - algorithm - INFO: starting 13, line-solver.
+2022-05-06 00:10:25 - controller - INFO: Finalizing environment...
+2022-05-06 00:10:25 - controller - INFO: Finalizing: SafeCoordinateLineBO
+2022-05-06 00:10:25 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:10:25 - controller - INFO: Initializing algorithm: SafeCoordinateLineBO.
+2022-05-06 00:10:25 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:25 - model - INFO: Using beta=4 .
+2022-05-06 00:10:25 - model - INFO: Using beta=4 .
+2022-05-06 00:10:25 - model - INFO: Using beta=4 .
+2022-05-06 00:10:25 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:25 - model - INFO: Using beta=4 .
+2022-05-06 00:10:25 - model - INFO: Using beta=4 .
+2022-05-06 00:10:25 - model - INFO: Using beta=4 .
+2022-05-06 00:10:25 - controller - INFO: Starting optimization: SafeCoordinateLineBO
+2022-05-06 00:10:25 - algorithm - INFO: best_x evaluate, y=-4.1328593574628325
+2022-05-06 00:10:25 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:10:25 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/3/Iteration_1.pdf
+2022-05-06 00:10:25 - algorithm - INFO: best_x evaluate, y=-3.718621184402862
+2022-05-06 00:10:25 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:10:26 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/3/Iteration_2.pdf
+2022-05-06 00:10:26 - algorithm - INFO: best_x evaluate, y=-3.3326459245794124
+2022-05-06 00:10:26 - algorithm - INFO: starting 3, line-solver.
+2022-05-06 00:10:26 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/3/Iteration_3.pdf
+2022-05-06 00:10:26 - algorithm - INFO: best_x evaluate, y=-3.088345680072646
+2022-05-06 00:10:26 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:10:26 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/3/Iteration_4.pdf
+2022-05-06 00:10:26 - algorithm - INFO: best_x evaluate, y=-2.7279888086494566
+2022-05-06 00:10:26 - algorithm - INFO: starting 5, line-solver.
+2022-05-06 00:10:27 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/3/Iteration_5.pdf
+2022-05-06 00:10:27 - algorithm - INFO: best_x evaluate, y=-2.654966303409454
+2022-05-06 00:10:27 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:10:27 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/3/Iteration_6.pdf
+2022-05-06 00:10:27 - algorithm - INFO: best_x evaluate, y=-2.6545604858171554
+2022-05-06 00:10:27 - algorithm - INFO: starting 7, line-solver.
+2022-05-06 00:10:27 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/3/Iteration_7.pdf
+2022-05-06 00:10:27 - algorithm - INFO: best_x evaluate, y=-2.6547109169645515
+2022-05-06 00:10:27 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:10:28 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/3/Iteration_8.pdf
+2022-05-06 00:10:28 - algorithm - INFO: best_x evaluate, y=-2.560477584363695
+2022-05-06 00:10:28 - algorithm - INFO: starting 9, line-solver.
+2022-05-06 00:10:28 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/3/Iteration_9.pdf
+2022-05-06 00:10:28 - algorithm - INFO: best_x evaluate, y=-2.5070130354687565
+2022-05-06 00:10:28 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:10:28 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/3/Iteration_10.pdf
+2022-05-06 00:10:28 - algorithm - INFO: best_x evaluate, y=-2.5103616427848654
+2022-05-06 00:10:28 - algorithm - INFO: starting 11, line-solver.
+2022-05-06 00:10:29 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/3/Iteration_11.pdf
+2022-05-06 00:10:29 - algorithm - INFO: best_x evaluate, y=-2.5090206258035224
+2022-05-06 00:10:29 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:10:29 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/3/Iteration_12.pdf
+2022-05-06 00:10:29 - algorithm - INFO: best_x evaluate, y=-2.489917683732289
+2022-05-06 00:10:29 - algorithm - INFO: starting 13, line-solver.
+2022-05-06 00:10:30 - controller - INFO: Finalizing environment...
+2022-05-06 00:10:30 - controller - INFO: Finalizing: SafeCoordinateLineBO
+2022-05-06 00:10:30 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:10:30 - controller - INFO: Initializing algorithm: SafeCoordinateLineBO.
+2022-05-06 00:10:30 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:30 - model - INFO: Using beta=4 .
+2022-05-06 00:10:30 - model - INFO: Using beta=4 .
+2022-05-06 00:10:30 - model - INFO: Using beta=4 .
+2022-05-06 00:10:30 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:30 - model - INFO: Using beta=4 .
+2022-05-06 00:10:30 - model - INFO: Using beta=4 .
+2022-05-06 00:10:30 - model - INFO: Using beta=4 .
+2022-05-06 00:10:30 - controller - INFO: Starting optimization: SafeCoordinateLineBO
+2022-05-06 00:10:30 - algorithm - INFO: best_x evaluate, y=-4.135959782947033
+2022-05-06 00:10:30 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:10:30 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/4/Iteration_1.pdf
+2022-05-06 00:10:30 - algorithm - INFO: best_x evaluate, y=-3.7183793915541834
+2022-05-06 00:10:30 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:10:30 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/4/Iteration_2.pdf
+2022-05-06 00:10:30 - algorithm - INFO: best_x evaluate, y=-3.333309835219345
+2022-05-06 00:10:30 - algorithm - INFO: starting 3, line-solver.
+2022-05-06 00:10:30 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/4/Iteration_3.pdf
+2022-05-06 00:10:30 - algorithm - INFO: best_x evaluate, y=-3.084582238479613
+2022-05-06 00:10:30 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:10:31 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/4/Iteration_4.pdf
+2022-05-06 00:10:31 - algorithm - INFO: best_x evaluate, y=-2.726832115440588
+2022-05-06 00:10:31 - algorithm - INFO: starting 5, line-solver.
+2022-05-06 00:10:31 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/4/Iteration_5.pdf
+2022-05-06 00:10:31 - algorithm - INFO: best_x evaluate, y=-2.653644822788779
+2022-05-06 00:10:31 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:10:31 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/4/Iteration_6.pdf
+2022-05-06 00:10:31 - algorithm - INFO: best_x evaluate, y=-2.6554280651245366
+2022-05-06 00:10:31 - algorithm - INFO: starting 7, line-solver.
+2022-05-06 00:10:32 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/4/Iteration_7.pdf
+2022-05-06 00:10:32 - algorithm - INFO: best_x evaluate, y=-2.6532624829772127
+2022-05-06 00:10:32 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:10:32 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/4/Iteration_8.pdf
+2022-05-06 00:10:32 - algorithm - INFO: best_x evaluate, y=-2.558852811348791
+2022-05-06 00:10:32 - algorithm - INFO: starting 9, line-solver.
+2022-05-06 00:10:32 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/4/Iteration_9.pdf
+2022-05-06 00:10:32 - algorithm - INFO: best_x evaluate, y=-2.5093643627543925
+2022-05-06 00:10:32 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:10:33 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/4/Iteration_10.pdf
+2022-05-06 00:10:33 - algorithm - INFO: best_x evaluate, y=-2.5102116576480724
+2022-05-06 00:10:33 - algorithm - INFO: starting 11, line-solver.
+2022-05-06 00:10:33 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/4/Iteration_11.pdf
+2022-05-06 00:10:33 - algorithm - INFO: best_x evaluate, y=-2.508672719941454
+2022-05-06 00:10:33 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:10:34 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/4/Iteration_12.pdf
+2022-05-06 00:10:34 - algorithm - INFO: best_x evaluate, y=-2.487774890615456
+2022-05-06 00:10:34 - algorithm - INFO: starting 13, line-solver.
+2022-05-06 00:10:34 - controller - INFO: Finalizing environment...
+2022-05-06 00:10:34 - controller - INFO: Finalizing: SafeCoordinateLineBO
+2022-05-06 00:10:34 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:10:34 - controller - INFO: Initializing algorithm: SafeCoordinateLineBO.
+2022-05-06 00:10:34 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:34 - model - INFO: Using beta=4 .
+2022-05-06 00:10:34 - model - INFO: Using beta=4 .
+2022-05-06 00:10:34 - model - INFO: Using beta=4 .
+2022-05-06 00:10:34 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:34 - model - INFO: Using beta=4 .
+2022-05-06 00:10:34 - model - INFO: Using beta=4 .
+2022-05-06 00:10:34 - model - INFO: Using beta=4 .
+2022-05-06 00:10:34 - controller - INFO: Starting optimization: SafeCoordinateLineBO
+2022-05-06 00:10:34 - algorithm - INFO: best_x evaluate, y=-4.132385162438012
+2022-05-06 00:10:34 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:10:34 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/5/Iteration_1.pdf
+2022-05-06 00:10:34 - algorithm - INFO: best_x evaluate, y=-3.7208770444567394
+2022-05-06 00:10:34 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:10:34 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/5/Iteration_2.pdf
+2022-05-06 00:10:34 - algorithm - INFO: best_x evaluate, y=-3.3318988925752024
+2022-05-06 00:10:34 - algorithm - INFO: starting 3, line-solver.
+2022-05-06 00:10:35 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/5/Iteration_3.pdf
+2022-05-06 00:10:35 - algorithm - INFO: best_x evaluate, y=-3.087285059305228
+2022-05-06 00:10:35 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:10:35 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/5/Iteration_4.pdf
+2022-05-06 00:10:35 - algorithm - INFO: best_x evaluate, y=-2.7275894090423964
+2022-05-06 00:10:35 - algorithm - INFO: starting 5, line-solver.
+2022-05-06 00:10:35 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/5/Iteration_5.pdf
+2022-05-06 00:10:35 - algorithm - INFO: best_x evaluate, y=-2.653792233457697
+2022-05-06 00:10:35 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:10:35 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/5/Iteration_6.pdf
+2022-05-06 00:10:35 - algorithm - INFO: best_x evaluate, y=-2.6536661362796776
+2022-05-06 00:10:35 - algorithm - INFO: starting 7, line-solver.
+2022-05-06 00:10:36 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/5/Iteration_7.pdf
+2022-05-06 00:10:36 - algorithm - INFO: best_x evaluate, y=-2.6535781904972118
+2022-05-06 00:10:36 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:10:36 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/5/Iteration_8.pdf
+2022-05-06 00:10:36 - algorithm - INFO: best_x evaluate, y=-2.560012059332508
+2022-05-06 00:10:36 - algorithm - INFO: starting 9, line-solver.
+2022-05-06 00:10:36 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/5/Iteration_9.pdf
+2022-05-06 00:10:37 - algorithm - INFO: best_x evaluate, y=-2.5104334509675543
+2022-05-06 00:10:37 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:10:37 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/5/Iteration_10.pdf
+2022-05-06 00:10:37 - algorithm - INFO: best_x evaluate, y=-2.5096264254844343
+2022-05-06 00:10:37 - algorithm - INFO: starting 11, line-solver.
+2022-05-06 00:10:37 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/5/Iteration_11.pdf
+2022-05-06 00:10:37 - algorithm - INFO: best_x evaluate, y=-2.509197948079311
+2022-05-06 00:10:37 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:10:38 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/5/Iteration_12.pdf
+2022-05-06 00:10:38 - algorithm - INFO: best_x evaluate, y=-2.4880363717077287
+2022-05-06 00:10:38 - algorithm - INFO: starting 13, line-solver.
+2022-05-06 00:10:38 - controller - INFO: Finalizing environment...
+2022-05-06 00:10:38 - controller - INFO: Finalizing: SafeCoordinateLineBO
+2022-05-06 00:10:38 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:10:38 - controller - INFO: Initializing algorithm: SafeCoordinateLineBO.
+2022-05-06 00:10:38 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:38 - model - INFO: Using beta=4 .
+2022-05-06 00:10:38 - model - INFO: Using beta=4 .
+2022-05-06 00:10:38 - model - INFO: Using beta=4 .
+2022-05-06 00:10:38 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:38 - model - INFO: Using beta=4 .
+2022-05-06 00:10:38 - model - INFO: Using beta=4 .
+2022-05-06 00:10:38 - model - INFO: Using beta=4 .
+2022-05-06 00:10:38 - controller - INFO: Starting optimization: SafeCoordinateLineBO
+2022-05-06 00:10:38 - algorithm - INFO: best_x evaluate, y=-4.1358753135864115
+2022-05-06 00:10:38 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:10:38 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/6/Iteration_1.pdf
+2022-05-06 00:10:38 - algorithm - INFO: best_x evaluate, y=-3.7212095050551697
+2022-05-06 00:10:38 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:10:38 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/6/Iteration_2.pdf
+2022-05-06 00:10:38 - algorithm - INFO: best_x evaluate, y=-3.333785777129928
+2022-05-06 00:10:38 - algorithm - INFO: starting 3, line-solver.
+2022-05-06 00:10:39 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/6/Iteration_3.pdf
+2022-05-06 00:10:39 - algorithm - INFO: best_x evaluate, y=-3.088518668450407
+2022-05-06 00:10:39 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:10:39 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/6/Iteration_4.pdf
+2022-05-06 00:10:39 - algorithm - INFO: best_x evaluate, y=-2.738578949318639
+2022-05-06 00:10:39 - algorithm - INFO: starting 5, line-solver.
+2022-05-06 00:10:39 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/6/Iteration_5.pdf
+2022-05-06 00:10:39 - algorithm - INFO: best_x evaluate, y=-2.6861037863035575
+2022-05-06 00:10:39 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:10:40 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/6/Iteration_6.pdf
+2022-05-06 00:10:40 - algorithm - INFO: best_x evaluate, y=-2.684180466799864
+2022-05-06 00:10:40 - algorithm - INFO: starting 7, line-solver.
+2022-05-06 00:10:40 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/6/Iteration_7.pdf
+2022-05-06 00:10:40 - algorithm - INFO: best_x evaluate, y=-2.686341385919406
+2022-05-06 00:10:40 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:10:40 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/6/Iteration_8.pdf
+2022-05-06 00:10:40 - algorithm - INFO: best_x evaluate, y=-2.559518727009401
+2022-05-06 00:10:41 - algorithm - INFO: starting 9, line-solver.
+2022-05-06 00:10:41 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/6/Iteration_9.pdf
+2022-05-06 00:10:41 - algorithm - INFO: best_x evaluate, y=-2.5085268206827713
+2022-05-06 00:10:41 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:10:41 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/6/Iteration_10.pdf
+2022-05-06 00:10:41 - algorithm - INFO: best_x evaluate, y=-2.5067184886894847
+2022-05-06 00:10:41 - algorithm - INFO: starting 11, line-solver.
+2022-05-06 00:10:42 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/6/Iteration_11.pdf
+2022-05-06 00:10:42 - algorithm - INFO: best_x evaluate, y=-2.50985140783953
+2022-05-06 00:10:42 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:10:42 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/6/Iteration_12.pdf
+2022-05-06 00:10:42 - algorithm - INFO: best_x evaluate, y=-2.48932890178617
+2022-05-06 00:10:42 - algorithm - INFO: starting 13, line-solver.
+2022-05-06 00:10:42 - controller - INFO: Finalizing environment...
+2022-05-06 00:10:42 - controller - INFO: Finalizing: SafeCoordinateLineBO
+2022-05-06 00:10:42 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:10:42 - controller - INFO: Initializing algorithm: SafeCoordinateLineBO.
+2022-05-06 00:10:42 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:42 - model - INFO: Using beta=4 .
+2022-05-06 00:10:42 - model - INFO: Using beta=4 .
+2022-05-06 00:10:42 - model - INFO: Using beta=4 .
+2022-05-06 00:10:42 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:42 - model - INFO: Using beta=4 .
+2022-05-06 00:10:42 - model - INFO: Using beta=4 .
+2022-05-06 00:10:42 - model - INFO: Using beta=4 .
+2022-05-06 00:10:42 - controller - INFO: Starting optimization: SafeCoordinateLineBO
+2022-05-06 00:10:42 - algorithm - INFO: best_x evaluate, y=-4.137012874758325
+2022-05-06 00:10:42 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:10:42 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/7/Iteration_1.pdf
+2022-05-06 00:10:42 - algorithm - INFO: best_x evaluate, y=-3.719913393684942
+2022-05-06 00:10:42 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:10:43 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/7/Iteration_2.pdf
+2022-05-06 00:10:43 - algorithm - INFO: best_x evaluate, y=-3.3339331905083296
+2022-05-06 00:10:43 - algorithm - INFO: starting 3, line-solver.
+2022-05-06 00:10:43 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/7/Iteration_3.pdf
+2022-05-06 00:10:43 - algorithm - INFO: best_x evaluate, y=-3.0860678045508
+2022-05-06 00:10:43 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:10:43 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/7/Iteration_4.pdf
+2022-05-06 00:10:43 - algorithm - INFO: best_x evaluate, y=-2.738113370105653
+2022-05-06 00:10:43 - algorithm - INFO: starting 5, line-solver.
+2022-05-06 00:10:44 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/7/Iteration_5.pdf
+2022-05-06 00:10:44 - algorithm - INFO: best_x evaluate, y=-2.688097592377987
+2022-05-06 00:10:44 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:10:44 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/7/Iteration_6.pdf
+2022-05-06 00:10:44 - algorithm - INFO: best_x evaluate, y=-2.686628061195657
+2022-05-06 00:10:44 - algorithm - INFO: starting 7, line-solver.
+2022-05-06 00:10:44 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/7/Iteration_7.pdf
+2022-05-06 00:10:44 - algorithm - INFO: best_x evaluate, y=-2.6850519138580164
+2022-05-06 00:10:44 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:10:45 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/7/Iteration_8.pdf
+2022-05-06 00:10:45 - algorithm - INFO: best_x evaluate, y=-2.5598433110705456
+2022-05-06 00:10:45 - algorithm - INFO: starting 9, line-solver.
+2022-05-06 00:10:45 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/7/Iteration_9.pdf
+2022-05-06 00:10:45 - algorithm - INFO: best_x evaluate, y=-2.508349488084986
+2022-05-06 00:10:45 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:10:45 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/7/Iteration_10.pdf
+2022-05-06 00:10:45 - algorithm - INFO: best_x evaluate, y=-2.5080613965439085
+2022-05-06 00:10:45 - algorithm - INFO: starting 11, line-solver.
+2022-05-06 00:10:46 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/7/Iteration_11.pdf
+2022-05-06 00:10:46 - algorithm - INFO: best_x evaluate, y=-2.508043802986287
+2022-05-06 00:10:46 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:10:46 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/7/Iteration_12.pdf
+2022-05-06 00:10:46 - algorithm - INFO: best_x evaluate, y=-2.4894221053316676
+2022-05-06 00:10:46 - algorithm - INFO: starting 13, line-solver.
+2022-05-06 00:10:46 - controller - INFO: Finalizing environment...
+2022-05-06 00:10:46 - controller - INFO: Finalizing: SafeCoordinateLineBO
+2022-05-06 00:10:46 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:10:46 - controller - INFO: Initializing algorithm: SafeCoordinateLineBO.
+2022-05-06 00:10:46 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:46 - model - INFO: Using beta=4 .
+2022-05-06 00:10:46 - model - INFO: Using beta=4 .
+2022-05-06 00:10:46 - model - INFO: Using beta=4 .
+2022-05-06 00:10:46 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:46 - model - INFO: Using beta=4 .
+2022-05-06 00:10:46 - model - INFO: Using beta=4 .
+2022-05-06 00:10:46 - model - INFO: Using beta=4 .
+2022-05-06 00:10:46 - controller - INFO: Starting optimization: SafeCoordinateLineBO
+2022-05-06 00:10:46 - algorithm - INFO: best_x evaluate, y=-4.133226818739636
+2022-05-06 00:10:46 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:10:47 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/8/Iteration_1.pdf
+2022-05-06 00:10:47 - algorithm - INFO: best_x evaluate, y=-3.718411577402375
+2022-05-06 00:10:47 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:10:47 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/8/Iteration_2.pdf
+2022-05-06 00:10:47 - algorithm - INFO: best_x evaluate, y=-3.3303457120383064
+2022-05-06 00:10:47 - algorithm - INFO: starting 3, line-solver.
+2022-05-06 00:10:47 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/8/Iteration_3.pdf
+2022-05-06 00:10:47 - algorithm - INFO: best_x evaluate, y=-3.0879575574553177
+2022-05-06 00:10:47 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:10:48 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/8/Iteration_4.pdf
+2022-05-06 00:10:48 - algorithm - INFO: best_x evaluate, y=-2.727656620800596
+2022-05-06 00:10:48 - algorithm - INFO: starting 5, line-solver.
+2022-05-06 00:10:48 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/8/Iteration_5.pdf
+2022-05-06 00:10:48 - algorithm - INFO: best_x evaluate, y=-2.6544648577211865
+2022-05-06 00:10:48 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:10:48 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/8/Iteration_6.pdf
+2022-05-06 00:10:48 - algorithm - INFO: best_x evaluate, y=-2.655612606311609
+2022-05-06 00:10:48 - algorithm - INFO: starting 7, line-solver.
+2022-05-06 00:10:49 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/8/Iteration_7.pdf
+2022-05-06 00:10:49 - algorithm - INFO: best_x evaluate, y=-2.65389708394175
+2022-05-06 00:10:49 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:10:49 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/8/Iteration_8.pdf
+2022-05-06 00:10:49 - algorithm - INFO: best_x evaluate, y=-2.5597006560882063
+2022-05-06 00:10:49 - algorithm - INFO: starting 9, line-solver.
+2022-05-06 00:10:50 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/8/Iteration_9.pdf
+2022-05-06 00:10:50 - algorithm - INFO: best_x evaluate, y=-2.510275971409035
+2022-05-06 00:10:50 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:10:50 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/8/Iteration_10.pdf
+2022-05-06 00:10:50 - algorithm - INFO: best_x evaluate, y=-2.5094245584473467
+2022-05-06 00:10:50 - algorithm - INFO: starting 11, line-solver.
+2022-05-06 00:10:51 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/8/Iteration_11.pdf
+2022-05-06 00:10:51 - algorithm - INFO: best_x evaluate, y=-2.5098738598210475
+2022-05-06 00:10:51 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:10:51 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/8/Iteration_12.pdf
+2022-05-06 00:10:51 - algorithm - INFO: best_x evaluate, y=-2.490145602454344
+2022-05-06 00:10:51 - algorithm - INFO: starting 13, line-solver.
+2022-05-06 00:10:51 - controller - INFO: Finalizing environment...
+2022-05-06 00:10:51 - controller - INFO: Finalizing: SafeCoordinateLineBO
+2022-05-06 00:10:51 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:10:51 - controller - INFO: Initializing algorithm: SafeCoordinateLineBO.
+2022-05-06 00:10:51 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:51 - model - INFO: Using beta=4 .
+2022-05-06 00:10:51 - model - INFO: Using beta=4 .
+2022-05-06 00:10:51 - model - INFO: Using beta=4 .
+2022-05-06 00:10:51 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:51 - model - INFO: Using beta=4 .
+2022-05-06 00:10:51 - model - INFO: Using beta=4 .
+2022-05-06 00:10:51 - model - INFO: Using beta=4 .
+2022-05-06 00:10:51 - controller - INFO: Starting optimization: SafeCoordinateLineBO
+2022-05-06 00:10:51 - algorithm - INFO: best_x evaluate, y=-4.135306329139265
+2022-05-06 00:10:51 - algorithm - INFO: starting 1, line-solver.
+2022-05-06 00:10:52 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/9/Iteration_1.pdf
+2022-05-06 00:10:52 - algorithm - INFO: best_x evaluate, y=-3.719061591784002
+2022-05-06 00:10:52 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:10:52 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/9/Iteration_2.pdf
+2022-05-06 00:10:52 - algorithm - INFO: best_x evaluate, y=-3.332195600865378
+2022-05-06 00:10:52 - algorithm - INFO: starting 3, line-solver.
+2022-05-06 00:10:52 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/9/Iteration_3.pdf
+2022-05-06 00:10:52 - algorithm - INFO: best_x evaluate, y=-3.086146977367289
+2022-05-06 00:10:52 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:10:52 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/9/Iteration_4.pdf
+2022-05-06 00:10:52 - algorithm - INFO: best_x evaluate, y=-2.738638279116777
+2022-05-06 00:10:52 - algorithm - INFO: starting 5, line-solver.
+2022-05-06 00:10:53 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/9/Iteration_5.pdf
+2022-05-06 00:10:53 - algorithm - INFO: best_x evaluate, y=-2.687530728178685
+2022-05-06 00:10:53 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:10:53 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/9/Iteration_6.pdf
+2022-05-06 00:10:53 - algorithm - INFO: best_x evaluate, y=-2.684752819945331
+2022-05-06 00:10:53 - algorithm - INFO: starting 7, line-solver.
+2022-05-06 00:10:53 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/9/Iteration_7.pdf
+2022-05-06 00:10:54 - algorithm - INFO: best_x evaluate, y=-2.685167466740909
+2022-05-06 00:10:54 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:10:54 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/9/Iteration_8.pdf
+2022-05-06 00:10:54 - algorithm - INFO: best_x evaluate, y=-2.5563688500611845
+2022-05-06 00:10:54 - algorithm - INFO: starting 9, line-solver.
+2022-05-06 00:10:54 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/9/Iteration_9.pdf
+2022-05-06 00:10:54 - algorithm - INFO: best_x evaluate, y=-2.509316948538739
+2022-05-06 00:10:54 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:10:55 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/9/Iteration_10.pdf
+2022-05-06 00:10:55 - algorithm - INFO: best_x evaluate, y=-2.510426464038965
+2022-05-06 00:10:55 - algorithm - INFO: starting 11, line-solver.
+2022-05-06 00:10:55 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/9/Iteration_11.pdf
+2022-05-06 00:10:55 - algorithm - INFO: best_x evaluate, y=-2.5069266442646243
+2022-05-06 00:10:55 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:10:56 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/1/9/Iteration_12.pdf
+2022-05-06 00:10:56 - algorithm - INFO: best_x evaluate, y=-2.4914244648972814
+2022-05-06 00:10:56 - algorithm - INFO: starting 13, line-solver.
+2022-05-06 00:10:56 - controller - INFO: Finalizing environment...
+2022-05-06 00:10:56 - controller - INFO: Finalizing: SafeCoordinateLineBO
+2022-05-06 00:10:56 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:10:56 - controller - INFO: Initializing algorithm: SafeAscentLineBO.
+2022-05-06 00:10:56 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:56 - model - INFO: Using beta=4 .
+2022-05-06 00:10:56 - model - INFO: Using beta=4 .
+2022-05-06 00:10:56 - model - INFO: Using beta=4 .
+2022-05-06 00:10:56 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:10:56 - model - INFO: Using beta=4 .
+2022-05-06 00:10:56 - model - INFO: Using beta=4 .
+2022-05-06 00:10:56 - model - INFO: Using beta=4 .
+2022-05-06 00:10:56 - controller - INFO: Starting optimization: SafeAscentLineBO
+2022-05-06 00:10:56 - algorithm - INFO: best_x evaluate, y=-4.132157147366795
+2022-05-06 00:10:56 - algorithm - INFO: starting 1, tr-solver.
+2022-05-06 00:10:56 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:10:57 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/0/Iteration_1.pdf
+2022-05-06 00:10:57 - algorithm - INFO: best_x evaluate, y=-3.7475126559538317
+2022-05-06 00:10:57 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:10:57 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/0/Iteration_2.pdf
+2022-05-06 00:10:57 - algorithm - INFO: best_x evaluate, y=-3.6349744874659584
+2022-05-06 00:10:57 - algorithm - INFO: starting 3, tr-solver.
+2022-05-06 00:10:57 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:10:57 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/0/Iteration_3.pdf
+2022-05-06 00:10:57 - algorithm - INFO: best_x evaluate, y=-3.1425722078398115
+2022-05-06 00:10:57 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:10:58 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/0/Iteration_4.pdf
+2022-05-06 00:10:58 - algorithm - INFO: best_x evaluate, y=-3.1071910921805297
+2022-05-06 00:10:58 - algorithm - INFO: starting 5, tr-solver.
+2022-05-06 00:10:58 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:10:58 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/0/Iteration_5.pdf
+2022-05-06 00:10:58 - algorithm - INFO: best_x evaluate, y=-2.8373555773515453
+2022-05-06 00:10:58 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:10:58 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/0/Iteration_6.pdf
+2022-05-06 00:10:58 - algorithm - INFO: best_x evaluate, y=-2.7818027354831747
+2022-05-06 00:10:58 - algorithm - INFO: starting 7, tr-solver.
+2022-05-06 00:10:58 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:10:59 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/0/Iteration_7.pdf
+2022-05-06 00:10:59 - algorithm - INFO: best_x evaluate, y=-2.7735147154701254
+2022-05-06 00:10:59 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:10:59 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/0/Iteration_8.pdf
+2022-05-06 00:10:59 - algorithm - INFO: best_x evaluate, y=-2.7700628299747807
+2022-05-06 00:10:59 - algorithm - INFO: starting 9, tr-solver.
+2022-05-06 00:10:59 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:10:59 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/0/Iteration_9.pdf
+2022-05-06 00:10:59 - algorithm - INFO: best_x evaluate, y=-2.702886450967653
+2022-05-06 00:10:59 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:11:00 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/0/Iteration_10.pdf
+2022-05-06 00:11:00 - algorithm - INFO: best_x evaluate, y=-2.7076976549511764
+2022-05-06 00:11:00 - algorithm - INFO: starting 11, tr-solver.
+2022-05-06 00:11:00 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:00 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/0/Iteration_11.pdf
+2022-05-06 00:11:00 - algorithm - INFO: best_x evaluate, y=-2.58494257954913
+2022-05-06 00:11:00 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:11:00 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/0/Iteration_12.pdf
+2022-05-06 00:11:00 - algorithm - INFO: best_x evaluate, y=-2.5870576080704195
+2022-05-06 00:11:00 - algorithm - INFO: starting 13, tr-solver.
+2022-05-06 00:11:01 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:01 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/0/Iteration_13.pdf
+2022-05-06 00:11:01 - algorithm - INFO: best_x evaluate, y=-2.5243769652571593
+2022-05-06 00:11:01 - algorithm - INFO: starting 14, line-solver.
+2022-05-06 00:11:01 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/0/Iteration_14.pdf
+2022-05-06 00:11:01 - algorithm - INFO: best_x evaluate, y=-2.5161939616936295
+2022-05-06 00:11:01 - algorithm - INFO: starting 15, tr-solver.
+2022-05-06 00:11:02 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:02 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/0/Iteration_15.pdf
+2022-05-06 00:11:02 - algorithm - INFO: best_x evaluate, y=-2.478869766794584
+2022-05-06 00:11:02 - algorithm - INFO: starting 16, line-solver.
+2022-05-06 00:11:02 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:02 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:02 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:03 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/0/Iteration_16.pdf
+2022-05-06 00:11:03 - controller - INFO: Finalizing environment...
+2022-05-06 00:11:03 - controller - INFO: Finalizing: SafeAscentLineBO
+2022-05-06 00:11:03 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:11:03 - controller - INFO: Initializing algorithm: SafeAscentLineBO.
+2022-05-06 00:11:03 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:11:03 - model - INFO: Using beta=4 .
+2022-05-06 00:11:03 - model - INFO: Using beta=4 .
+2022-05-06 00:11:03 - model - INFO: Using beta=4 .
+2022-05-06 00:11:03 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:11:03 - model - INFO: Using beta=4 .
+2022-05-06 00:11:03 - model - INFO: Using beta=4 .
+2022-05-06 00:11:03 - model - INFO: Using beta=4 .
+2022-05-06 00:11:03 - controller - INFO: Starting optimization: SafeAscentLineBO
+2022-05-06 00:11:03 - algorithm - INFO: best_x evaluate, y=-4.1349663750634305
+2022-05-06 00:11:03 - algorithm - INFO: starting 1, tr-solver.
+2022-05-06 00:11:03 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:03 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/1/Iteration_1.pdf
+2022-05-06 00:11:03 - algorithm - INFO: best_x evaluate, y=-3.3587538824539243
+2022-05-06 00:11:03 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:11:03 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/1/Iteration_2.pdf
+2022-05-06 00:11:03 - algorithm - INFO: best_x evaluate, y=-3.3343090480823454
+2022-05-06 00:11:03 - algorithm - INFO: starting 3, tr-solver.
+2022-05-06 00:11:03 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:03 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/1/Iteration_3.pdf
+2022-05-06 00:11:03 - algorithm - INFO: best_x evaluate, y=-3.2598284605531767
+2022-05-06 00:11:03 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:11:04 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/1/Iteration_4.pdf
+2022-05-06 00:11:04 - algorithm - INFO: best_x evaluate, y=-3.1149295466139284
+2022-05-06 00:11:04 - algorithm - INFO: starting 5, tr-solver.
+2022-05-06 00:11:04 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:04 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/1/Iteration_5.pdf
+2022-05-06 00:11:04 - algorithm - INFO: best_x evaluate, y=-2.9880652320948067
+2022-05-06 00:11:04 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:11:04 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/1/Iteration_6.pdf
+2022-05-06 00:11:04 - algorithm - INFO: best_x evaluate, y=-2.9555652576103544
+2022-05-06 00:11:04 - algorithm - INFO: starting 7, tr-solver.
+2022-05-06 00:11:05 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:05 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/1/Iteration_7.pdf
+2022-05-06 00:11:05 - algorithm - INFO: best_x evaluate, y=-2.8258974182618513
+2022-05-06 00:11:05 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:11:05 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/1/Iteration_8.pdf
+2022-05-06 00:11:05 - algorithm - INFO: best_x evaluate, y=-2.8252356491930675
+2022-05-06 00:11:05 - algorithm - INFO: starting 9, tr-solver.
+2022-05-06 00:11:05 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:05 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/1/Iteration_9.pdf
+2022-05-06 00:11:05 - algorithm - INFO: best_x evaluate, y=-2.7772360835658243
+2022-05-06 00:11:05 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:11:06 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/1/Iteration_10.pdf
+2022-05-06 00:11:06 - algorithm - INFO: best_x evaluate, y=-2.7760322455212902
+2022-05-06 00:11:06 - algorithm - INFO: starting 11, tr-solver.
+2022-05-06 00:11:06 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:06 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/1/Iteration_11.pdf
+2022-05-06 00:11:06 - algorithm - INFO: best_x evaluate, y=-2.762950232407966
+2022-05-06 00:11:06 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:11:07 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/1/Iteration_12.pdf
+2022-05-06 00:11:07 - algorithm - INFO: best_x evaluate, y=-2.7264236802519775
+2022-05-06 00:11:07 - algorithm - INFO: starting 13, tr-solver.
+2022-05-06 00:11:07 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:07 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/1/Iteration_13.pdf
+2022-05-06 00:11:07 - algorithm - INFO: best_x evaluate, y=-2.5052717868753516
+2022-05-06 00:11:07 - algorithm - INFO: starting 14, line-solver.
+2022-05-06 00:11:07 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/1/Iteration_14.pdf
+2022-05-06 00:11:07 - algorithm - INFO: best_x evaluate, y=-2.5080397935210867
+2022-05-06 00:11:07 - algorithm - INFO: starting 15, tr-solver.
+2022-05-06 00:11:08 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:08 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/1/Iteration_15.pdf
+2022-05-06 00:11:08 - algorithm - INFO: best_x evaluate, y=-2.4905177790551005
+2022-05-06 00:11:08 - algorithm - INFO: starting 16, line-solver.
+2022-05-06 00:11:08 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:08 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:08 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:08 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:08 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:08 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:08 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:08 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:08 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:08 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:08 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:08 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:08 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:08 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/1/Iteration_16.pdf
+2022-05-06 00:11:08 - controller - INFO: Finalizing environment...
+2022-05-06 00:11:08 - controller - INFO: Finalizing: SafeAscentLineBO
+2022-05-06 00:11:08 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:11:08 - controller - INFO: Initializing algorithm: SafeAscentLineBO.
+2022-05-06 00:11:08 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:11:08 - model - INFO: Using beta=4 .
+2022-05-06 00:11:08 - model - INFO: Using beta=4 .
+2022-05-06 00:11:08 - model - INFO: Using beta=4 .
+2022-05-06 00:11:08 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:11:08 - model - INFO: Using beta=4 .
+2022-05-06 00:11:08 - model - INFO: Using beta=4 .
+2022-05-06 00:11:08 - model - INFO: Using beta=4 .
+2022-05-06 00:11:08 - controller - INFO: Starting optimization: SafeAscentLineBO
+2022-05-06 00:11:08 - algorithm - INFO: best_x evaluate, y=-4.136224166158917
+2022-05-06 00:11:08 - algorithm - INFO: starting 1, tr-solver.
+2022-05-06 00:11:08 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:09 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/2/Iteration_1.pdf
+2022-05-06 00:11:09 - algorithm - INFO: best_x evaluate, y=-3.6775553151624534
+2022-05-06 00:11:09 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:11:09 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/2/Iteration_2.pdf
+2022-05-06 00:11:09 - algorithm - INFO: best_x evaluate, y=-3.026898735890447
+2022-05-06 00:11:09 - algorithm - INFO: starting 3, tr-solver.
+2022-05-06 00:11:09 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:09 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/2/Iteration_3.pdf
+2022-05-06 00:11:09 - algorithm - INFO: best_x evaluate, y=-3.138468462758105
+2022-05-06 00:11:09 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:11:09 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/2/Iteration_4.pdf
+2022-05-06 00:11:09 - algorithm - INFO: best_x evaluate, y=-3.140771989490971
+2022-05-06 00:11:09 - algorithm - INFO: starting 5, tr-solver.
+2022-05-06 00:11:10 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:10 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/2/Iteration_5.pdf
+2022-05-06 00:11:10 - algorithm - INFO: best_x evaluate, y=-2.890955051682073
+2022-05-06 00:11:10 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:11:10 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/2/Iteration_6.pdf
+2022-05-06 00:11:10 - algorithm - INFO: best_x evaluate, y=-2.890538869068869
+2022-05-06 00:11:10 - algorithm - INFO: starting 7, tr-solver.
+2022-05-06 00:11:10 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:11 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/2/Iteration_7.pdf
+2022-05-06 00:11:11 - algorithm - INFO: best_x evaluate, y=-2.6507688091610566
+2022-05-06 00:11:11 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:11:11 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/2/Iteration_8.pdf
+2022-05-06 00:11:11 - algorithm - INFO: best_x evaluate, y=-2.625418166121967
+2022-05-06 00:11:11 - algorithm - INFO: starting 9, tr-solver.
+2022-05-06 00:11:11 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:11 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/2/Iteration_9.pdf
+2022-05-06 00:11:11 - algorithm - INFO: best_x evaluate, y=-2.6329654800357827
+2022-05-06 00:11:11 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:11:12 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/2/Iteration_10.pdf
+2022-05-06 00:11:12 - algorithm - INFO: best_x evaluate, y=-2.6354286719270656
+2022-05-06 00:11:12 - algorithm - INFO: starting 11, tr-solver.
+2022-05-06 00:11:12 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:12 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/2/Iteration_11.pdf
+2022-05-06 00:11:12 - algorithm - INFO: best_x evaluate, y=-2.6870969259620683
+2022-05-06 00:11:12 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:11:12 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:12 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/2/Iteration_12.pdf
+2022-05-06 00:11:12 - algorithm - INFO: best_x evaluate, y=-2.60689432752688
+2022-05-06 00:11:12 - algorithm - INFO: starting 13, tr-solver.
+2022-05-06 00:11:12 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:13 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/2/Iteration_13.pdf
+2022-05-06 00:11:13 - algorithm - INFO: best_x evaluate, y=-2.59367321148222
+2022-05-06 00:11:13 - algorithm - INFO: starting 14, line-solver.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:13 - controller - INFO: Finalizing environment...
+2022-05-06 00:11:13 - controller - INFO: Finalizing: SafeAscentLineBO
+2022-05-06 00:11:13 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:11:13 - controller - INFO: Initializing algorithm: SafeAscentLineBO.
+2022-05-06 00:11:13 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:11:13 - model - INFO: Using beta=4 .
+2022-05-06 00:11:13 - model - INFO: Using beta=4 .
+2022-05-06 00:11:13 - model - INFO: Using beta=4 .
+2022-05-06 00:11:13 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:11:13 - model - INFO: Using beta=4 .
+2022-05-06 00:11:13 - model - INFO: Using beta=4 .
+2022-05-06 00:11:13 - model - INFO: Using beta=4 .
+2022-05-06 00:11:13 - controller - INFO: Starting optimization: SafeAscentLineBO
+2022-05-06 00:11:13 - algorithm - INFO: best_x evaluate, y=-4.134548235196312
+2022-05-06 00:11:13 - algorithm - INFO: starting 1, tr-solver.
+2022-05-06 00:11:14 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:14 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/3/Iteration_1.pdf
+2022-05-06 00:11:14 - algorithm - INFO: best_x evaluate, y=-3.537482827015333
+2022-05-06 00:11:14 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:11:15 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/3/Iteration_2.pdf
+2022-05-06 00:11:15 - algorithm - INFO: best_x evaluate, y=-3.2949462256922106
+2022-05-06 00:11:15 - algorithm - INFO: starting 3, tr-solver.
+2022-05-06 00:11:15 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:15 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/3/Iteration_3.pdf
+2022-05-06 00:11:15 - algorithm - INFO: best_x evaluate, y=-2.9685723784889175
+2022-05-06 00:11:15 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:11:15 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/3/Iteration_4.pdf
+2022-05-06 00:11:15 - algorithm - INFO: best_x evaluate, y=-2.887342193297421
+2022-05-06 00:11:15 - algorithm - INFO: starting 5, tr-solver.
+2022-05-06 00:11:15 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:16 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/3/Iteration_5.pdf
+2022-05-06 00:11:16 - algorithm - INFO: best_x evaluate, y=-2.8391641979133118
+2022-05-06 00:11:16 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:11:16 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/3/Iteration_6.pdf
+2022-05-06 00:11:16 - algorithm - INFO: best_x evaluate, y=-2.804474824786087
+2022-05-06 00:11:16 - algorithm - INFO: starting 7, tr-solver.
+2022-05-06 00:11:16 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:16 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/3/Iteration_7.pdf
+2022-05-06 00:11:16 - algorithm - INFO: best_x evaluate, y=-2.6035911937468352
+2022-05-06 00:11:16 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:11:17 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/3/Iteration_8.pdf
+2022-05-06 00:11:17 - algorithm - INFO: best_x evaluate, y=-2.564018833184439
+2022-05-06 00:11:17 - algorithm - INFO: starting 9, tr-solver.
+2022-05-06 00:11:17 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:17 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/3/Iteration_9.pdf
+2022-05-06 00:11:17 - algorithm - INFO: best_x evaluate, y=-2.5618537048532644
+2022-05-06 00:11:17 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:11:17 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/3/Iteration_10.pdf
+2022-05-06 00:11:17 - algorithm - INFO: best_x evaluate, y=-2.5606549467478246
+2022-05-06 00:11:17 - algorithm - INFO: starting 11, tr-solver.
+2022-05-06 00:11:17 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:18 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/3/Iteration_11.pdf
+2022-05-06 00:11:18 - algorithm - INFO: best_x evaluate, y=-2.5695016568820543
+2022-05-06 00:11:18 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:11:18 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/3/Iteration_12.pdf
+2022-05-06 00:11:18 - algorithm - INFO: best_x evaluate, y=-2.567780398567755
+2022-05-06 00:11:18 - algorithm - INFO: starting 13, tr-solver.
+2022-05-06 00:11:18 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:18 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/3/Iteration_13.pdf
+2022-05-06 00:11:18 - algorithm - INFO: best_x evaluate, y=-2.5169125853592527
+2022-05-06 00:11:18 - algorithm - INFO: starting 14, line-solver.
+2022-05-06 00:11:19 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/3/Iteration_14.pdf
+2022-05-06 00:11:19 - algorithm - INFO: best_x evaluate, y=-2.491278553705007
+2022-05-06 00:11:19 - algorithm - INFO: starting 15, tr-solver.
+2022-05-06 00:11:19 - algorithm - WARNING: change in best_x < 2% of trust-region, picking random direction.
+2022-05-06 00:11:19 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/3/Iteration_15.pdf
+2022-05-06 00:11:19 - algorithm - INFO: best_x evaluate, y=-2.4798842587500523
+2022-05-06 00:11:19 - algorithm - INFO: starting 16, line-solver.
+2022-05-06 00:11:20 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/3/Iteration_16.pdf
+2022-05-06 00:11:20 - controller - INFO: Finalizing environment...
+2022-05-06 00:11:20 - controller - INFO: Finalizing: SafeAscentLineBO
+2022-05-06 00:11:20 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:11:20 - controller - INFO: Initializing algorithm: SafeAscentLineBO.
+2022-05-06 00:11:20 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:11:20 - model - INFO: Using beta=4 .
+2022-05-06 00:11:20 - model - INFO: Using beta=4 .
+2022-05-06 00:11:20 - model - INFO: Using beta=4 .
+2022-05-06 00:11:20 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:11:20 - model - INFO: Using beta=4 .
+2022-05-06 00:11:20 - model - INFO: Using beta=4 .
+2022-05-06 00:11:20 - model - INFO: Using beta=4 .
+2022-05-06 00:11:20 - controller - INFO: Starting optimization: SafeAscentLineBO
+2022-05-06 00:11:20 - algorithm - INFO: best_x evaluate, y=-4.134624016780215
+2022-05-06 00:11:20 - algorithm - INFO: starting 1, tr-solver.
+2022-05-06 00:11:20 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:20 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/4/Iteration_1.pdf
+2022-05-06 00:11:20 - algorithm - INFO: best_x evaluate, y=-3.5542826966804464
+2022-05-06 00:11:20 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:11:20 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/4/Iteration_2.pdf
+2022-05-06 00:11:20 - algorithm - INFO: best_x evaluate, y=-3.452768182594825
+2022-05-06 00:11:20 - algorithm - INFO: starting 3, tr-solver.
+2022-05-06 00:11:20 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:20 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/4/Iteration_3.pdf
+2022-05-06 00:11:20 - algorithm - INFO: best_x evaluate, y=-3.3927695794493227
+2022-05-06 00:11:20 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:11:21 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/4/Iteration_4.pdf
+2022-05-06 00:11:21 - algorithm - INFO: best_x evaluate, y=-3.0730629676409578
+2022-05-06 00:11:21 - algorithm - INFO: starting 5, tr-solver.
+2022-05-06 00:11:21 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:21 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/4/Iteration_5.pdf
+2022-05-06 00:11:21 - algorithm - INFO: best_x evaluate, y=-2.852325876908831
+2022-05-06 00:11:21 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:11:21 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/4/Iteration_6.pdf
+2022-05-06 00:11:21 - algorithm - INFO: best_x evaluate, y=-2.7349791052049413
+2022-05-06 00:11:21 - algorithm - INFO: starting 7, tr-solver.
+2022-05-06 00:11:21 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:22 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/4/Iteration_7.pdf
+2022-05-06 00:11:22 - algorithm - INFO: best_x evaluate, y=-2.6481217767467378
+2022-05-06 00:11:22 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:11:22 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/4/Iteration_8.pdf
+2022-05-06 00:11:22 - algorithm - INFO: best_x evaluate, y=-2.641261074579935
+2022-05-06 00:11:22 - algorithm - INFO: starting 9, tr-solver.
+2022-05-06 00:11:22 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:22 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/4/Iteration_9.pdf
+2022-05-06 00:11:22 - algorithm - INFO: best_x evaluate, y=-2.5691508177573303
+2022-05-06 00:11:22 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:11:23 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/4/Iteration_10.pdf
+2022-05-06 00:11:23 - algorithm - INFO: best_x evaluate, y=-2.5153995384192482
+2022-05-06 00:11:23 - algorithm - INFO: starting 11, tr-solver.
+2022-05-06 00:11:23 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:23 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/4/Iteration_11.pdf
+2022-05-06 00:11:23 - algorithm - INFO: best_x evaluate, y=-2.514970734894704
+2022-05-06 00:11:23 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:23 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/4/Iteration_12.pdf
+2022-05-06 00:11:24 - algorithm - INFO: best_x evaluate, y=-2.4919515112036317
+2022-05-06 00:11:24 - algorithm - INFO: starting 13, tr-solver.
+2022-05-06 00:11:24 - algorithm - WARNING: change in best_x < 2% of trust-region, picking random direction.
+2022-05-06 00:11:24 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/4/Iteration_13.pdf
+2022-05-06 00:11:24 - algorithm - INFO: best_x evaluate, y=-2.4914106488796297
+2022-05-06 00:11:24 - algorithm - INFO: starting 14, line-solver.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:25 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:25 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:25 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:25 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:25 - controller - INFO: Finalizing environment...
+2022-05-06 00:11:25 - controller - INFO: Finalizing: SafeAscentLineBO
+2022-05-06 00:11:25 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:11:25 - controller - INFO: Initializing algorithm: SafeAscentLineBO.
+2022-05-06 00:11:25 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:11:25 - model - INFO: Using beta=4 .
+2022-05-06 00:11:25 - model - INFO: Using beta=4 .
+2022-05-06 00:11:25 - model - INFO: Using beta=4 .
+2022-05-06 00:11:25 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:11:25 - model - INFO: Using beta=4 .
+2022-05-06 00:11:25 - model - INFO: Using beta=4 .
+2022-05-06 00:11:25 - model - INFO: Using beta=4 .
+2022-05-06 00:11:25 - controller - INFO: Starting optimization: SafeAscentLineBO
+2022-05-06 00:11:25 - algorithm - INFO: best_x evaluate, y=-4.133853039864769
+2022-05-06 00:11:25 - algorithm - INFO: starting 1, tr-solver.
+2022-05-06 00:11:25 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:25 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/5/Iteration_1.pdf
+2022-05-06 00:11:25 - algorithm - INFO: best_x evaluate, y=-3.610069731609696
+2022-05-06 00:11:25 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:11:25 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/5/Iteration_2.pdf
+2022-05-06 00:11:25 - algorithm - INFO: best_x evaluate, y=-3.124060744166921
+2022-05-06 00:11:25 - algorithm - INFO: starting 3, tr-solver.
+2022-05-06 00:11:25 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:25 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/5/Iteration_3.pdf
+2022-05-06 00:11:25 - algorithm - INFO: best_x evaluate, y=-2.943480936258106
+2022-05-06 00:11:25 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:11:26 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/5/Iteration_4.pdf
+2022-05-06 00:11:26 - algorithm - INFO: best_x evaluate, y=-2.94354727078019
+2022-05-06 00:11:26 - algorithm - INFO: starting 5, tr-solver.
+2022-05-06 00:11:26 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:26 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/5/Iteration_5.pdf
+2022-05-06 00:11:26 - algorithm - INFO: best_x evaluate, y=-2.7775705068776233
+2022-05-06 00:11:26 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:11:26 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/5/Iteration_6.pdf
+2022-05-06 00:11:26 - algorithm - INFO: best_x evaluate, y=-2.7738420455140194
+2022-05-06 00:11:26 - algorithm - INFO: starting 7, tr-solver.
+2022-05-06 00:11:27 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:27 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/5/Iteration_7.pdf
+2022-05-06 00:11:27 - algorithm - INFO: best_x evaluate, y=-2.7218303499809657
+2022-05-06 00:11:27 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:11:27 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/5/Iteration_8.pdf
+2022-05-06 00:11:27 - algorithm - INFO: best_x evaluate, y=-2.7221979898178605
+2022-05-06 00:11:27 - algorithm - INFO: starting 9, tr-solver.
+2022-05-06 00:11:27 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:27 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/5/Iteration_9.pdf
+2022-05-06 00:11:27 - algorithm - INFO: best_x evaluate, y=-2.6811923926879344
+2022-05-06 00:11:27 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:11:28 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/5/Iteration_10.pdf
+2022-05-06 00:11:28 - algorithm - INFO: best_x evaluate, y=-2.5940704877369534
+2022-05-06 00:11:28 - algorithm - INFO: starting 11, tr-solver.
+2022-05-06 00:11:28 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:28 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/5/Iteration_11.pdf
+2022-05-06 00:11:28 - algorithm - INFO: best_x evaluate, y=-2.5486793878051857
+2022-05-06 00:11:28 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:11:29 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/5/Iteration_12.pdf
+2022-05-06 00:11:29 - algorithm - INFO: best_x evaluate, y=-2.535530122008763
+2022-05-06 00:11:29 - algorithm - INFO: starting 13, tr-solver.
+2022-05-06 00:11:29 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:29 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/5/Iteration_13.pdf
+2022-05-06 00:11:29 - algorithm - INFO: best_x evaluate, y=-2.5243154123551164
+2022-05-06 00:11:29 - algorithm - INFO: starting 14, line-solver.
+2022-05-06 00:11:29 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/5/Iteration_14.pdf
+2022-05-06 00:11:29 - algorithm - INFO: best_x evaluate, y=-2.515870115740209
+2022-05-06 00:11:29 - algorithm - INFO: starting 15, tr-solver.
+2022-05-06 00:11:30 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:30 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/5/Iteration_15.pdf
+2022-05-06 00:11:30 - algorithm - INFO: best_x evaluate, y=-2.4638126830814047
+2022-05-06 00:11:30 - algorithm - INFO: starting 16, line-solver.
+2022-05-06 00:11:30 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/5/Iteration_16.pdf
+2022-05-06 00:11:30 - controller - INFO: Finalizing environment...
+2022-05-06 00:11:30 - controller - INFO: Finalizing: SafeAscentLineBO
+2022-05-06 00:11:30 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:11:30 - controller - INFO: Initializing algorithm: SafeAscentLineBO.
+2022-05-06 00:11:30 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:11:30 - model - INFO: Using beta=4 .
+2022-05-06 00:11:30 - model - INFO: Using beta=4 .
+2022-05-06 00:11:30 - model - INFO: Using beta=4 .
+2022-05-06 00:11:30 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:11:30 - model - INFO: Using beta=4 .
+2022-05-06 00:11:30 - model - INFO: Using beta=4 .
+2022-05-06 00:11:30 - model - INFO: Using beta=4 .
+2022-05-06 00:11:30 - controller - INFO: Starting optimization: SafeAscentLineBO
+2022-05-06 00:11:30 - algorithm - INFO: best_x evaluate, y=-4.134724575918922
+2022-05-06 00:11:30 - algorithm - INFO: starting 1, tr-solver.
+2022-05-06 00:11:30 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:31 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/6/Iteration_1.pdf
+2022-05-06 00:11:31 - algorithm - INFO: best_x evaluate, y=-3.7341165629878676
+2022-05-06 00:11:31 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:11:31 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/6/Iteration_2.pdf
+2022-05-06 00:11:31 - algorithm - INFO: best_x evaluate, y=-3.49535354222833
+2022-05-06 00:11:31 - algorithm - INFO: starting 3, tr-solver.
+2022-05-06 00:11:31 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:31 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/6/Iteration_3.pdf
+2022-05-06 00:11:31 - algorithm - INFO: best_x evaluate, y=-3.229281780317389
+2022-05-06 00:11:31 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:11:32 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/6/Iteration_4.pdf
+2022-05-06 00:11:32 - algorithm - INFO: best_x evaluate, y=-3.2539311211321533
+2022-05-06 00:11:32 - algorithm - INFO: starting 5, tr-solver.
+2022-05-06 00:11:32 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:32 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/6/Iteration_5.pdf
+2022-05-06 00:11:32 - algorithm - INFO: best_x evaluate, y=-3.035142100682675
+2022-05-06 00:11:32 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:11:32 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/6/Iteration_6.pdf
+2022-05-06 00:11:32 - algorithm - INFO: best_x evaluate, y=-3.0147501411917785
+2022-05-06 00:11:32 - algorithm - INFO: starting 7, tr-solver.
+2022-05-06 00:11:32 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:32 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/6/Iteration_7.pdf
+2022-05-06 00:11:33 - algorithm - INFO: best_x evaluate, y=-2.7238514921284387
+2022-05-06 00:11:33 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:11:33 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/6/Iteration_8.pdf
+2022-05-06 00:11:33 - algorithm - INFO: best_x evaluate, y=-2.7395310885002404
+2022-05-06 00:11:33 - algorithm - INFO: starting 9, tr-solver.
+2022-05-06 00:11:33 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:33 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/6/Iteration_9.pdf
+2022-05-06 00:11:33 - algorithm - INFO: best_x evaluate, y=-2.6569763349150604
+2022-05-06 00:11:33 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:11:34 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/6/Iteration_10.pdf
+2022-05-06 00:11:34 - algorithm - INFO: best_x evaluate, y=-2.633309338570938
+2022-05-06 00:11:34 - algorithm - INFO: starting 11, tr-solver.
+2022-05-06 00:11:34 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:34 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/6/Iteration_11.pdf
+2022-05-06 00:11:34 - algorithm - INFO: best_x evaluate, y=-2.6200151532158973
+2022-05-06 00:11:34 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:11:34 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/6/Iteration_12.pdf
+2022-05-06 00:11:34 - algorithm - INFO: best_x evaluate, y=-2.5945793750171635
+2022-05-06 00:11:34 - algorithm - INFO: starting 13, tr-solver.
+2022-05-06 00:11:35 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:35 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/6/Iteration_13.pdf
+2022-05-06 00:11:35 - algorithm - INFO: best_x evaluate, y=-2.496791241081918
+2022-05-06 00:11:35 - algorithm - INFO: starting 14, line-solver.
+2022-05-06 00:11:36 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/6/Iteration_14.pdf
+2022-05-06 00:11:36 - algorithm - INFO: best_x evaluate, y=-2.514605016086764
+2022-05-06 00:11:36 - algorithm - INFO: starting 15, tr-solver.
+2022-05-06 00:11:36 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:36 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/6/Iteration_15.pdf
+2022-05-06 00:11:36 - algorithm - INFO: best_x evaluate, y=-2.5195142030294306
+2022-05-06 00:11:36 - algorithm - INFO: starting 16, line-solver.
+2022-05-06 00:11:37 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/6/Iteration_16.pdf
+2022-05-06 00:11:37 - controller - INFO: Finalizing environment...
+2022-05-06 00:11:37 - controller - INFO: Finalizing: SafeAscentLineBO
+2022-05-06 00:11:37 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:11:37 - controller - INFO: Initializing algorithm: SafeAscentLineBO.
+2022-05-06 00:11:37 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:11:37 - model - INFO: Using beta=4 .
+2022-05-06 00:11:37 - model - INFO: Using beta=4 .
+2022-05-06 00:11:37 - model - INFO: Using beta=4 .
+2022-05-06 00:11:37 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:11:37 - model - INFO: Using beta=4 .
+2022-05-06 00:11:37 - model - INFO: Using beta=4 .
+2022-05-06 00:11:37 - model - INFO: Using beta=4 .
+2022-05-06 00:11:37 - controller - INFO: Starting optimization: SafeAscentLineBO
+2022-05-06 00:11:37 - algorithm - INFO: best_x evaluate, y=-4.134120722008216
+2022-05-06 00:11:37 - algorithm - INFO: starting 1, tr-solver.
+2022-05-06 00:11:37 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:37 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/7/Iteration_1.pdf
+2022-05-06 00:11:37 - algorithm - INFO: best_x evaluate, y=-3.3041830676236486
+2022-05-06 00:11:37 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:11:37 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/7/Iteration_2.pdf
+2022-05-06 00:11:37 - algorithm - INFO: best_x evaluate, y=-3.309755607525048
+2022-05-06 00:11:37 - algorithm - INFO: starting 3, tr-solver.
+2022-05-06 00:11:37 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:37 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/7/Iteration_3.pdf
+2022-05-06 00:11:37 - algorithm - INFO: best_x evaluate, y=-3.2050898970998114
+2022-05-06 00:11:37 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:11:38 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/7/Iteration_4.pdf
+2022-05-06 00:11:38 - algorithm - INFO: best_x evaluate, y=-3.135147809495868
+2022-05-06 00:11:38 - algorithm - INFO: starting 5, tr-solver.
+2022-05-06 00:11:38 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:38 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/7/Iteration_5.pdf
+2022-05-06 00:11:38 - algorithm - INFO: best_x evaluate, y=-2.7515388179691547
+2022-05-06 00:11:38 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:11:38 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/7/Iteration_6.pdf
+2022-05-06 00:11:38 - algorithm - INFO: best_x evaluate, y=-2.749871149904099
+2022-05-06 00:11:38 - algorithm - INFO: starting 7, tr-solver.
+2022-05-06 00:11:38 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:39 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/7/Iteration_7.pdf
+2022-05-06 00:11:39 - algorithm - INFO: best_x evaluate, y=-2.652911859938244
+2022-05-06 00:11:39 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:11:39 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/7/Iteration_8.pdf
+2022-05-06 00:11:39 - algorithm - INFO: best_x evaluate, y=-2.69603267681918
+2022-05-06 00:11:39 - algorithm - INFO: starting 9, tr-solver.
+2022-05-06 00:11:39 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:39 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/7/Iteration_9.pdf
+2022-05-06 00:11:39 - algorithm - INFO: best_x evaluate, y=-2.536910655732664
+2022-05-06 00:11:39 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:11:40 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/7/Iteration_10.pdf
+2022-05-06 00:11:40 - algorithm - INFO: best_x evaluate, y=-2.5316088953421114
+2022-05-06 00:11:40 - algorithm - INFO: starting 11, tr-solver.
+2022-05-06 00:11:40 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:40 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/7/Iteration_11.pdf
+2022-05-06 00:11:40 - algorithm - INFO: best_x evaluate, y=-2.557236653565344
+2022-05-06 00:11:40 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:11:40 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/7/Iteration_12.pdf
+2022-05-06 00:11:40 - algorithm - INFO: best_x evaluate, y=-2.5594103867559723
+2022-05-06 00:11:40 - algorithm - INFO: starting 13, tr-solver.
+2022-05-06 00:11:41 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:41 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/7/Iteration_13.pdf
+2022-05-06 00:11:41 - algorithm - INFO: best_x evaluate, y=-2.506157530544676
+2022-05-06 00:11:41 - algorithm - INFO: starting 14, line-solver.
+2022-05-06 00:11:41 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/7/Iteration_14.pdf
+2022-05-06 00:11:41 - algorithm - INFO: best_x evaluate, y=-2.495037544337797
+2022-05-06 00:11:41 - algorithm - INFO: starting 15, tr-solver.
+2022-05-06 00:11:41 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:42 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/7/Iteration_15.pdf
+2022-05-06 00:11:42 - algorithm - INFO: best_x evaluate, y=-2.506568441137187
+2022-05-06 00:11:42 - algorithm - INFO: starting 16, line-solver.
+2022-05-06 00:11:42 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/7/Iteration_16.pdf
+2022-05-06 00:11:42 - controller - INFO: Finalizing environment...
+2022-05-06 00:11:42 - controller - INFO: Finalizing: SafeAscentLineBO
+2022-05-06 00:11:42 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:11:42 - controller - INFO: Initializing algorithm: SafeAscentLineBO.
+2022-05-06 00:11:42 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:11:42 - model - INFO: Using beta=4 .
+2022-05-06 00:11:42 - model - INFO: Using beta=4 .
+2022-05-06 00:11:42 - model - INFO: Using beta=4 .
+2022-05-06 00:11:42 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:11:42 - model - INFO: Using beta=4 .
+2022-05-06 00:11:42 - model - INFO: Using beta=4 .
+2022-05-06 00:11:42 - model - INFO: Using beta=4 .
+2022-05-06 00:11:42 - controller - INFO: Starting optimization: SafeAscentLineBO
+2022-05-06 00:11:42 - algorithm - INFO: best_x evaluate, y=-4.134335532064436
+2022-05-06 00:11:42 - algorithm - INFO: starting 1, tr-solver.
+2022-05-06 00:11:42 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:42 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/8/Iteration_1.pdf
+2022-05-06 00:11:42 - algorithm - INFO: best_x evaluate, y=-3.6053742230712595
+2022-05-06 00:11:42 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:11:43 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/8/Iteration_2.pdf
+2022-05-06 00:11:43 - algorithm - INFO: best_x evaluate, y=-3.539127468659853
+2022-05-06 00:11:43 - algorithm - INFO: starting 3, tr-solver.
+2022-05-06 00:11:43 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:43 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/8/Iteration_3.pdf
+2022-05-06 00:11:43 - algorithm - INFO: best_x evaluate, y=-3.266399603596003
+2022-05-06 00:11:43 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:11:43 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/8/Iteration_4.pdf
+2022-05-06 00:11:43 - algorithm - INFO: best_x evaluate, y=-3.267818199507512
+2022-05-06 00:11:43 - algorithm - INFO: starting 5, tr-solver.
+2022-05-06 00:11:43 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:44 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/8/Iteration_5.pdf
+2022-05-06 00:11:44 - algorithm - INFO: best_x evaluate, y=-3.171429136572732
+2022-05-06 00:11:44 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:11:44 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/8/Iteration_6.pdf
+2022-05-06 00:11:44 - algorithm - INFO: best_x evaluate, y=-3.171262230497405
+2022-05-06 00:11:44 - algorithm - INFO: starting 7, tr-solver.
+2022-05-06 00:11:44 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:44 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/8/Iteration_7.pdf
+2022-05-06 00:11:44 - algorithm - INFO: best_x evaluate, y=-2.994016258058121
+2022-05-06 00:11:44 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:11:44 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/8/Iteration_8.pdf
+2022-05-06 00:11:44 - algorithm - INFO: best_x evaluate, y=-2.9994279681698
+2022-05-06 00:11:44 - algorithm - INFO: starting 9, tr-solver.
+2022-05-06 00:11:45 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:45 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/8/Iteration_9.pdf
+2022-05-06 00:11:45 - algorithm - INFO: best_x evaluate, y=-2.61208129058308
+2022-05-06 00:11:45 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:11:45 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:45 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/8/Iteration_10.pdf
+2022-05-06 00:11:45 - algorithm - INFO: best_x evaluate, y=-2.6401037995882572
+2022-05-06 00:11:45 - algorithm - INFO: starting 11, tr-solver.
+2022-05-06 00:11:45 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:46 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/8/Iteration_11.pdf
+2022-05-06 00:11:46 - algorithm - INFO: best_x evaluate, y=-2.596985877229084
+2022-05-06 00:11:46 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:11:46 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/8/Iteration_12.pdf
+2022-05-06 00:11:46 - algorithm - INFO: best_x evaluate, y=-2.626155265623054
+2022-05-06 00:11:46 - algorithm - INFO: starting 13, tr-solver.
+2022-05-06 00:11:46 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:46 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/8/Iteration_13.pdf
+2022-05-06 00:11:46 - algorithm - INFO: best_x evaluate, y=-2.5993392633541084
+2022-05-06 00:11:46 - algorithm - INFO: starting 14, line-solver.
+2022-05-06 00:11:46 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:46 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:46 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:46 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:46 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:46 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:46 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:46 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:46 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:46 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:46 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:46 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:47 - controller - INFO: Finalizing environment...
+2022-05-06 00:11:47 - controller - INFO: Finalizing: SafeAscentLineBO
+2022-05-06 00:11:47 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.Rosenbrock.
+2022-05-06 00:11:47 - controller - INFO: Initializing algorithm: SafeAscentLineBO.
+2022-05-06 00:11:47 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:11:47 - model - INFO: Using beta=4 .
+2022-05-06 00:11:47 - model - INFO: Using beta=4 .
+2022-05-06 00:11:47 - model - INFO: Using beta=4 .
+2022-05-06 00:11:47 - algorithm - INFO: Got 0 initial data points.
+2022-05-06 00:11:47 - model - INFO: Using beta=4 .
+2022-05-06 00:11:47 - model - INFO: Using beta=4 .
+2022-05-06 00:11:47 - model - INFO: Using beta=4 .
+2022-05-06 00:11:47 - controller - INFO: Starting optimization: SafeAscentLineBO
+2022-05-06 00:11:47 - algorithm - INFO: best_x evaluate, y=-4.133572975442277
+2022-05-06 00:11:47 - algorithm - INFO: starting 1, tr-solver.
+2022-05-06 00:11:47 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:47 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/9/Iteration_1.pdf
+2022-05-06 00:11:47 - algorithm - INFO: best_x evaluate, y=-3.494417740265494
+2022-05-06 00:11:47 - algorithm - INFO: starting 2, line-solver.
+2022-05-06 00:11:48 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/9/Iteration_2.pdf
+2022-05-06 00:11:48 - algorithm - INFO: best_x evaluate, y=-3.4609377180503818
+2022-05-06 00:11:48 - algorithm - INFO: starting 3, tr-solver.
+2022-05-06 00:11:48 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:48 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/9/Iteration_3.pdf
+2022-05-06 00:11:48 - algorithm - INFO: best_x evaluate, y=-2.971606138688141
+2022-05-06 00:11:48 - algorithm - INFO: starting 4, line-solver.
+2022-05-06 00:11:48 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/9/Iteration_4.pdf
+2022-05-06 00:11:48 - algorithm - INFO: best_x evaluate, y=-2.9742732851687768
+2022-05-06 00:11:48 - algorithm - INFO: starting 5, tr-solver.
+2022-05-06 00:11:48 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:48 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/9/Iteration_5.pdf
+2022-05-06 00:11:48 - algorithm - INFO: best_x evaluate, y=-2.8666565406548496
+2022-05-06 00:11:48 - algorithm - INFO: starting 6, line-solver.
+2022-05-06 00:11:49 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/9/Iteration_6.pdf
+2022-05-06 00:11:49 - algorithm - INFO: best_x evaluate, y=-2.872058415601357
+2022-05-06 00:11:49 - algorithm - INFO: starting 7, tr-solver.
+2022-05-06 00:11:49 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:49 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/9/Iteration_7.pdf
+2022-05-06 00:11:49 - algorithm - INFO: best_x evaluate, y=-2.8063413802660455
+2022-05-06 00:11:49 - algorithm - INFO: starting 8, line-solver.
+2022-05-06 00:11:49 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/9/Iteration_8.pdf
+2022-05-06 00:11:49 - algorithm - INFO: best_x evaluate, y=-2.744480046483682
+2022-05-06 00:11:49 - algorithm - INFO: starting 9, tr-solver.
+2022-05-06 00:11:50 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:50 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/9/Iteration_9.pdf
+2022-05-06 00:11:50 - algorithm - INFO: best_x evaluate, y=-2.7144672752657413
+2022-05-06 00:11:50 - algorithm - INFO: starting 10, line-solver.
+2022-05-06 00:11:50 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/9/Iteration_10.pdf
+2022-05-06 00:11:50 - algorithm - INFO: best_x evaluate, y=-2.681689262657751
+2022-05-06 00:11:50 - algorithm - INFO: starting 11, tr-solver.
+2022-05-06 00:11:50 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:50 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/9/Iteration_11.pdf
+2022-05-06 00:11:50 - algorithm - INFO: best_x evaluate, y=-2.558996579107089
+2022-05-06 00:11:50 - algorithm - INFO: starting 12, line-solver.
+2022-05-06 00:11:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:51 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-05-06 00:11:51 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/9/Iteration_12.pdf
+2022-05-06 00:11:51 - algorithm - INFO: best_x evaluate, y=-2.509831831461862
+2022-05-06 00:11:51 - algorithm - INFO: starting 13, tr-solver.
+2022-05-06 00:11:51 - algorithm - WARNING: change in best_x < 2% of trust-region, picking random direction.
+2022-05-06 00:11:51 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/9/Iteration_13.pdf
+2022-05-06 00:11:51 - algorithm - INFO: best_x evaluate, y=-2.4860519917957538
+2022-05-06 00:11:51 - algorithm - INFO: starting 14, line-solver.
+2022-05-06 00:11:52 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/9/Iteration_14.pdf
+2022-05-06 00:11:52 - algorithm - INFO: best_x evaluate, y=-2.496387435058834
+2022-05-06 00:11:52 - algorithm - INFO: starting 15, tr-solver.
+2022-05-06 00:11:52 - algorithm - WARNING: predicted objective increase at best_x < 0.5%, picking random direction.
+2022-05-06 00:11:52 - algorithm - INFO: Saved trust-region plot to runs/Rosenbrock_4/plots/2/9/Iteration_15.pdf
+2022-05-06 00:11:52 - algorithm - INFO: best_x evaluate, y=-2.454052446094276
+2022-05-06 00:11:52 - algorithm - INFO: starting 16, line-solver.
+2022-05-06 00:11:52 - algorithm - INFO: Saved line plot to runs/Rosenbrock_4/plots/2/9/Iteration_16.pdf
+2022-05-06 00:11:52 - controller - INFO: Finalizing environment...
+2022-05-06 00:11:52 - controller - INFO: Finalizing: SafeAscentLineBO

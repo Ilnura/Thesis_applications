@@ -1,0 +1,509 @@
+2022-04-26 17:20:11 - experiment - INFO: Created a new experiment in runs/QP_2r.
+2022-04-26 17:20:17 - experiment - INFO: Loaded experiment from runs/QP_2r.
+2022-04-26 17:20:17 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.QP.
+2022-04-26 17:20:17 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-04-26 17:20:17 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:17 - model - INFO: Using beta=4 .
+2022-04-26 17:20:17 - model - INFO: Using beta=4 .
+2022-04-26 17:20:17 - model - INFO: Using beta=4 .
+2022-04-26 17:20:17 - model - INFO: Using beta=4 .
+2022-04-26 17:20:17 - model - INFO: Using beta=4 .
+2022-04-26 17:20:17 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:17 - model - INFO: Using beta=4 .
+2022-04-26 17:20:17 - model - INFO: Using beta=4 .
+2022-04-26 17:20:17 - model - INFO: Using beta=4 .
+2022-04-26 17:20:17 - model - INFO: Using beta=4 .
+2022-04-26 17:20:17 - model - INFO: Using beta=4 .
+2022-04-26 17:20:17 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-04-26 17:20:17 - algorithm - INFO: best_x evaluate, y=1.0024852009335359
+2022-04-26 17:20:17 - algorithm - INFO: starting 1, line-solver.
+2022-04-26 17:20:17 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:17 - algorithm - INFO: best_x evaluate, y=1.2398916857621738
+2022-04-26 17:20:17 - algorithm - INFO: starting 2, line-solver.
+2022-04-26 17:20:17 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:17 - algorithm - INFO: best_x evaluate, y=1.2741385121992352
+2022-04-26 17:20:17 - algorithm - INFO: starting 3, line-solver.
+2022-04-26 17:20:18 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:18 - algorithm - INFO: best_x evaluate, y=1.285178882771244
+2022-04-26 17:20:18 - algorithm - INFO: starting 4, line-solver.
+2022-04-26 17:20:18 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:18 - algorithm - INFO: best_x evaluate, y=1.565204449768752
+2022-04-26 17:20:18 - algorithm - INFO: starting 5, line-solver.
+2022-04-26 17:20:18 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:18 - algorithm - INFO: best_x evaluate, y=1.631976081883453
+2022-04-26 17:20:18 - algorithm - INFO: starting 6, line-solver.
+2022-04-26 17:20:18 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:18 - algorithm - INFO: best_x evaluate, y=1.7256261027900837
+2022-04-26 17:20:18 - algorithm - INFO: starting 7, line-solver.
+2022-04-26 17:20:18 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:18 - algorithm - INFO: best_x evaluate, y=1.7313781842108582
+2022-04-26 17:20:18 - algorithm - INFO: starting 8, line-solver.
+2022-04-26 17:20:19 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:19 - algorithm - INFO: best_x evaluate, y=1.746474521984352
+2022-04-26 17:20:19 - algorithm - INFO: starting 9, line-solver.
+2022-04-26 17:20:19 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:19 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:19 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:19 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:19 - algorithm - INFO: best_x evaluate, y=1.7489248962641804
+2022-04-26 17:20:19 - algorithm - INFO: starting 10, line-solver.
+2022-04-26 17:20:19 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:19 - controller - INFO: Finalizing environment...
+2022-04-26 17:20:19 - controller - INFO: Finalizing: SafeRandomLineBO
+2022-04-26 17:20:19 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.QP.
+2022-04-26 17:20:19 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-04-26 17:20:19 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:19 - model - INFO: Using beta=4 .
+2022-04-26 17:20:19 - model - INFO: Using beta=4 .
+2022-04-26 17:20:19 - model - INFO: Using beta=4 .
+2022-04-26 17:20:19 - model - INFO: Using beta=4 .
+2022-04-26 17:20:19 - model - INFO: Using beta=4 .
+2022-04-26 17:20:19 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:19 - model - INFO: Using beta=4 .
+2022-04-26 17:20:19 - model - INFO: Using beta=4 .
+2022-04-26 17:20:19 - model - INFO: Using beta=4 .
+2022-04-26 17:20:19 - model - INFO: Using beta=4 .
+2022-04-26 17:20:19 - model - INFO: Using beta=4 .
+2022-04-26 17:20:19 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-04-26 17:20:19 - algorithm - INFO: best_x evaluate, y=0.9993226049063764
+2022-04-26 17:20:19 - algorithm - INFO: starting 1, line-solver.
+2022-04-26 17:20:20 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:20 - algorithm - INFO: best_x evaluate, y=1.4859470800426624
+2022-04-26 17:20:20 - algorithm - INFO: starting 2, line-solver.
+2022-04-26 17:20:20 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:20 - algorithm - INFO: best_x evaluate, y=1.562556666835154
+2022-04-26 17:20:20 - algorithm - INFO: starting 3, line-solver.
+2022-04-26 17:20:20 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:20 - algorithm - INFO: best_x evaluate, y=1.6169311122336463
+2022-04-26 17:20:20 - algorithm - INFO: starting 4, line-solver.
+2022-04-26 17:20:20 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:20 - algorithm - INFO: best_x evaluate, y=1.6225160103674046
+2022-04-26 17:20:20 - algorithm - INFO: starting 5, line-solver.
+2022-04-26 17:20:20 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:20 - algorithm - INFO: best_x evaluate, y=1.6961424564869294
+2022-04-26 17:20:20 - algorithm - INFO: starting 6, line-solver.
+2022-04-26 17:20:21 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:21 - algorithm - INFO: best_x evaluate, y=1.7016092116500563
+2022-04-26 17:20:21 - algorithm - INFO: starting 7, line-solver.
+2022-04-26 17:20:21 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:21 - algorithm - INFO: best_x evaluate, y=1.7147208517223547
+2022-04-26 17:20:21 - algorithm - INFO: starting 8, line-solver.
+2022-04-26 17:20:21 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:21 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:21 - algorithm - INFO: best_x evaluate, y=1.7172008900179636
+2022-04-26 17:20:21 - algorithm - INFO: starting 9, line-solver.
+2022-04-26 17:20:21 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:21 - algorithm - INFO: best_x evaluate, y=1.7222868917493106
+2022-04-26 17:20:21 - algorithm - INFO: starting 10, line-solver.
+2022-04-26 17:20:22 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:22 - controller - INFO: Finalizing environment...
+2022-04-26 17:20:22 - controller - INFO: Finalizing: SafeRandomLineBO
+2022-04-26 17:20:22 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.QP.
+2022-04-26 17:20:22 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-04-26 17:20:22 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:22 - model - INFO: Using beta=4 .
+2022-04-26 17:20:22 - model - INFO: Using beta=4 .
+2022-04-26 17:20:22 - model - INFO: Using beta=4 .
+2022-04-26 17:20:22 - model - INFO: Using beta=4 .
+2022-04-26 17:20:22 - model - INFO: Using beta=4 .
+2022-04-26 17:20:22 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:22 - model - INFO: Using beta=4 .
+2022-04-26 17:20:22 - model - INFO: Using beta=4 .
+2022-04-26 17:20:22 - model - INFO: Using beta=4 .
+2022-04-26 17:20:22 - model - INFO: Using beta=4 .
+2022-04-26 17:20:22 - model - INFO: Using beta=4 .
+2022-04-26 17:20:22 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-04-26 17:20:22 - algorithm - INFO: best_x evaluate, y=1.0004952655811763
+2022-04-26 17:20:22 - algorithm - INFO: starting 1, line-solver.
+2022-04-26 17:20:22 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:22 - algorithm - INFO: best_x evaluate, y=1.2647329564960568
+2022-04-26 17:20:22 - algorithm - INFO: starting 2, line-solver.
+2022-04-26 17:20:22 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:22 - algorithm - INFO: best_x evaluate, y=1.3858087197898834
+2022-04-26 17:20:22 - algorithm - INFO: starting 3, line-solver.
+2022-04-26 17:20:22 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:22 - algorithm - INFO: best_x evaluate, y=1.6063063260086068
+2022-04-26 17:20:22 - algorithm - INFO: starting 4, line-solver.
+2022-04-26 17:20:23 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:23 - algorithm - INFO: best_x evaluate, y=1.6766443714194206
+2022-04-26 17:20:23 - algorithm - INFO: starting 5, line-solver.
+2022-04-26 17:20:23 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:23 - algorithm - INFO: best_x evaluate, y=1.6883436234604021
+2022-04-26 17:20:23 - algorithm - INFO: starting 6, line-solver.
+2022-04-26 17:20:23 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:23 - algorithm - INFO: best_x evaluate, y=1.6877396490334609
+2022-04-26 17:20:23 - algorithm - INFO: starting 7, line-solver.
+2022-04-26 17:20:23 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:23 - algorithm - INFO: best_x evaluate, y=1.6837316061218262
+2022-04-26 17:20:23 - algorithm - INFO: starting 8, line-solver.
+2022-04-26 17:20:24 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:24 - algorithm - INFO: best_x evaluate, y=1.7311259601156257
+2022-04-26 17:20:24 - algorithm - INFO: starting 9, line-solver.
+2022-04-26 17:20:24 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:24 - algorithm - INFO: best_x evaluate, y=1.746512893496184
+2022-04-26 17:20:24 - algorithm - INFO: starting 10, line-solver.
+2022-04-26 17:20:24 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:24 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:24 - controller - INFO: Finalizing environment...
+2022-04-26 17:20:24 - controller - INFO: Finalizing: SafeRandomLineBO
+2022-04-26 17:20:24 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.QP.
+2022-04-26 17:20:24 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-04-26 17:20:24 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:24 - model - INFO: Using beta=4 .
+2022-04-26 17:20:24 - model - INFO: Using beta=4 .
+2022-04-26 17:20:24 - model - INFO: Using beta=4 .
+2022-04-26 17:20:24 - model - INFO: Using beta=4 .
+2022-04-26 17:20:24 - model - INFO: Using beta=4 .
+2022-04-26 17:20:24 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:24 - model - INFO: Using beta=4 .
+2022-04-26 17:20:24 - model - INFO: Using beta=4 .
+2022-04-26 17:20:24 - model - INFO: Using beta=4 .
+2022-04-26 17:20:24 - model - INFO: Using beta=4 .
+2022-04-26 17:20:24 - model - INFO: Using beta=4 .
+2022-04-26 17:20:24 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-04-26 17:20:24 - algorithm - INFO: best_x evaluate, y=1.0020902599559411
+2022-04-26 17:20:24 - algorithm - INFO: starting 1, line-solver.
+2022-04-26 17:20:24 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:24 - algorithm - INFO: best_x evaluate, y=1.4234690372998386
+2022-04-26 17:20:24 - algorithm - INFO: starting 2, line-solver.
+2022-04-26 17:20:25 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:25 - algorithm - INFO: best_x evaluate, y=1.4363048836600614
+2022-04-26 17:20:25 - algorithm - INFO: starting 3, line-solver.
+2022-04-26 17:20:25 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:25 - algorithm - INFO: best_x evaluate, y=1.4976103214629906
+2022-04-26 17:20:25 - algorithm - INFO: starting 4, line-solver.
+2022-04-26 17:20:25 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:25 - algorithm - INFO: best_x evaluate, y=1.5084872571228043
+2022-04-26 17:20:25 - algorithm - INFO: starting 5, line-solver.
+2022-04-26 17:20:25 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:25 - algorithm - INFO: best_x evaluate, y=1.5264092701825738
+2022-04-26 17:20:25 - algorithm - INFO: starting 6, line-solver.
+2022-04-26 17:20:25 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:25 - algorithm - INFO: best_x evaluate, y=1.5337650008936252
+2022-04-26 17:20:25 - algorithm - INFO: starting 7, line-solver.
+2022-04-26 17:20:25 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:26 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:26 - algorithm - INFO: best_x evaluate, y=1.5414991926976016
+2022-04-26 17:20:26 - algorithm - INFO: starting 8, line-solver.
+2022-04-26 17:20:26 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:26 - algorithm - INFO: best_x evaluate, y=1.5459676954004282
+2022-04-26 17:20:26 - algorithm - INFO: starting 9, line-solver.
+2022-04-26 17:20:26 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:26 - algorithm - INFO: best_x evaluate, y=1.5513210568258438
+2022-04-26 17:20:26 - algorithm - INFO: starting 10, line-solver.
+2022-04-26 17:20:26 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:26 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:26 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:26 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:26 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:26 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:27 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:27 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:27 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:27 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:27 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:27 - controller - INFO: Finalizing environment...
+2022-04-26 17:20:27 - controller - INFO: Finalizing: SafeRandomLineBO
+2022-04-26 17:20:27 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.QP.
+2022-04-26 17:20:27 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-04-26 17:20:27 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:27 - model - INFO: Using beta=4 .
+2022-04-26 17:20:27 - model - INFO: Using beta=4 .
+2022-04-26 17:20:27 - model - INFO: Using beta=4 .
+2022-04-26 17:20:27 - model - INFO: Using beta=4 .
+2022-04-26 17:20:27 - model - INFO: Using beta=4 .
+2022-04-26 17:20:27 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:27 - model - INFO: Using beta=4 .
+2022-04-26 17:20:27 - model - INFO: Using beta=4 .
+2022-04-26 17:20:27 - model - INFO: Using beta=4 .
+2022-04-26 17:20:27 - model - INFO: Using beta=4 .
+2022-04-26 17:20:27 - model - INFO: Using beta=4 .
+2022-04-26 17:20:27 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-04-26 17:20:27 - algorithm - INFO: best_x evaluate, y=1.001117844614519
+2022-04-26 17:20:27 - algorithm - INFO: starting 1, line-solver.
+2022-04-26 17:20:27 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:27 - algorithm - INFO: best_x evaluate, y=1.5103771825347847
+2022-04-26 17:20:27 - algorithm - INFO: starting 2, line-solver.
+2022-04-26 17:20:27 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:27 - algorithm - INFO: best_x evaluate, y=1.5255283870202276
+2022-04-26 17:20:27 - algorithm - INFO: starting 3, line-solver.
+2022-04-26 17:20:27 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:27 - algorithm - INFO: best_x evaluate, y=1.583022947935024
+2022-04-26 17:20:27 - algorithm - INFO: starting 4, line-solver.
+2022-04-26 17:20:28 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:28 - algorithm - INFO: best_x evaluate, y=1.5856619844255089
+2022-04-26 17:20:28 - algorithm - INFO: starting 5, line-solver.
+2022-04-26 17:20:28 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:28 - algorithm - INFO: best_x evaluate, y=1.5861147929289268
+2022-04-26 17:20:28 - algorithm - INFO: starting 6, line-solver.
+2022-04-26 17:20:28 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:28 - algorithm - INFO: best_x evaluate, y=1.593891158262925
+2022-04-26 17:20:28 - algorithm - INFO: starting 7, line-solver.
+2022-04-26 17:20:28 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:28 - algorithm - INFO: best_x evaluate, y=1.5959274080913448
+2022-04-26 17:20:28 - algorithm - INFO: starting 8, line-solver.
+2022-04-26 17:20:29 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:29 - algorithm - INFO: best_x evaluate, y=1.595882924230808
+2022-04-26 17:20:29 - algorithm - INFO: starting 9, line-solver.
+2022-04-26 17:20:29 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:29 - algorithm - INFO: best_x evaluate, y=1.6004733365224881
+2022-04-26 17:20:29 - algorithm - INFO: starting 10, line-solver.
+2022-04-26 17:20:29 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:29 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:29 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:29 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:29 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:29 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:29 - controller - INFO: Finalizing environment...
+2022-04-26 17:20:29 - controller - INFO: Finalizing: SafeRandomLineBO
+2022-04-26 17:20:29 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.QP.
+2022-04-26 17:20:29 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-04-26 17:20:29 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:29 - model - INFO: Using beta=4 .
+2022-04-26 17:20:29 - model - INFO: Using beta=4 .
+2022-04-26 17:20:29 - model - INFO: Using beta=4 .
+2022-04-26 17:20:29 - model - INFO: Using beta=4 .
+2022-04-26 17:20:29 - model - INFO: Using beta=4 .
+2022-04-26 17:20:29 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:29 - model - INFO: Using beta=4 .
+2022-04-26 17:20:29 - model - INFO: Using beta=4 .
+2022-04-26 17:20:29 - model - INFO: Using beta=4 .
+2022-04-26 17:20:29 - model - INFO: Using beta=4 .
+2022-04-26 17:20:29 - model - INFO: Using beta=4 .
+2022-04-26 17:20:29 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-04-26 17:20:29 - algorithm - INFO: best_x evaluate, y=0.9991745903371098
+2022-04-26 17:20:29 - algorithm - INFO: starting 1, line-solver.
+2022-04-26 17:20:30 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:30 - algorithm - INFO: best_x evaluate, y=1.3143358909447787
+2022-04-26 17:20:30 - algorithm - INFO: starting 2, line-solver.
+2022-04-26 17:20:30 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:30 - algorithm - INFO: best_x evaluate, y=1.4136007552528889
+2022-04-26 17:20:30 - algorithm - INFO: starting 3, line-solver.
+2022-04-26 17:20:30 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:30 - algorithm - INFO: best_x evaluate, y=1.4301184100434055
+2022-04-26 17:20:30 - algorithm - INFO: starting 4, line-solver.
+2022-04-26 17:20:30 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:30 - algorithm - INFO: best_x evaluate, y=1.4709571831560722
+2022-04-26 17:20:30 - algorithm - INFO: starting 5, line-solver.
+2022-04-26 17:20:30 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:30 - algorithm - INFO: best_x evaluate, y=1.4891377836126096
+2022-04-26 17:20:30 - algorithm - INFO: starting 6, line-solver.
+2022-04-26 17:20:31 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:31 - algorithm - INFO: best_x evaluate, y=1.5006280667108598
+2022-04-26 17:20:31 - algorithm - INFO: starting 7, line-solver.
+2022-04-26 17:20:31 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:31 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:31 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:31 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:31 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:31 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:31 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:31 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:31 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:31 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:31 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:31 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:31 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:31 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:31 - algorithm - INFO: best_x evaluate, y=1.5063059402885781
+2022-04-26 17:20:31 - algorithm - INFO: starting 8, line-solver.
+2022-04-26 17:20:31 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:31 - algorithm - INFO: best_x evaluate, y=1.5056438406215271
+2022-04-26 17:20:31 - algorithm - INFO: starting 9, line-solver.
+2022-04-26 17:20:32 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:32 - algorithm - INFO: best_x evaluate, y=1.5057112999186055
+2022-04-26 17:20:32 - algorithm - INFO: starting 10, line-solver.
+2022-04-26 17:20:32 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:32 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:32 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:32 - controller - INFO: Finalizing environment...
+2022-04-26 17:20:32 - controller - INFO: Finalizing: SafeRandomLineBO
+2022-04-26 17:20:32 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.QP.
+2022-04-26 17:20:32 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-04-26 17:20:32 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:32 - model - INFO: Using beta=4 .
+2022-04-26 17:20:32 - model - INFO: Using beta=4 .
+2022-04-26 17:20:32 - model - INFO: Using beta=4 .
+2022-04-26 17:20:32 - model - INFO: Using beta=4 .
+2022-04-26 17:20:32 - model - INFO: Using beta=4 .
+2022-04-26 17:20:32 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:32 - model - INFO: Using beta=4 .
+2022-04-26 17:20:32 - model - INFO: Using beta=4 .
+2022-04-26 17:20:32 - model - INFO: Using beta=4 .
+2022-04-26 17:20:32 - model - INFO: Using beta=4 .
+2022-04-26 17:20:32 - model - INFO: Using beta=4 .
+2022-04-26 17:20:32 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-04-26 17:20:32 - algorithm - INFO: best_x evaluate, y=0.9988615817891504
+2022-04-26 17:20:32 - algorithm - INFO: starting 1, line-solver.
+2022-04-26 17:20:32 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:32 - algorithm - INFO: best_x evaluate, y=1.1848169459891047
+2022-04-26 17:20:32 - algorithm - INFO: starting 2, line-solver.
+2022-04-26 17:20:32 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:32 - algorithm - INFO: best_x evaluate, y=1.2098238820950646
+2022-04-26 17:20:32 - algorithm - INFO: starting 3, line-solver.
+2022-04-26 17:20:33 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:33 - algorithm - INFO: best_x evaluate, y=1.257308076475823
+2022-04-26 17:20:33 - algorithm - INFO: starting 4, line-solver.
+2022-04-26 17:20:33 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:33 - algorithm - INFO: best_x evaluate, y=1.324968852921426
+2022-04-26 17:20:33 - algorithm - INFO: starting 5, line-solver.
+2022-04-26 17:20:33 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:33 - algorithm - INFO: best_x evaluate, y=1.3427460398997235
+2022-04-26 17:20:33 - algorithm - INFO: starting 6, line-solver.
+2022-04-26 17:20:33 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:33 - algorithm - INFO: best_x evaluate, y=1.459509009169842
+2022-04-26 17:20:33 - algorithm - INFO: starting 7, line-solver.
+2022-04-26 17:20:33 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:33 - algorithm - INFO: best_x evaluate, y=1.516933755070699
+2022-04-26 17:20:33 - algorithm - INFO: starting 8, line-solver.
+2022-04-26 17:20:34 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:34 - algorithm - INFO: best_x evaluate, y=1.5184326305868627
+2022-04-26 17:20:34 - algorithm - INFO: starting 9, line-solver.
+2022-04-26 17:20:34 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:34 - algorithm - INFO: best_x evaluate, y=1.5383037042330945
+2022-04-26 17:20:34 - algorithm - INFO: starting 10, line-solver.
+2022-04-26 17:20:34 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:34 - controller - INFO: Finalizing environment...
+2022-04-26 17:20:34 - controller - INFO: Finalizing: SafeRandomLineBO
+2022-04-26 17:20:34 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.QP.
+2022-04-26 17:20:34 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-04-26 17:20:34 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:34 - model - INFO: Using beta=4 .
+2022-04-26 17:20:34 - model - INFO: Using beta=4 .
+2022-04-26 17:20:34 - model - INFO: Using beta=4 .
+2022-04-26 17:20:34 - model - INFO: Using beta=4 .
+2022-04-26 17:20:34 - model - INFO: Using beta=4 .
+2022-04-26 17:20:34 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:34 - model - INFO: Using beta=4 .
+2022-04-26 17:20:34 - model - INFO: Using beta=4 .
+2022-04-26 17:20:34 - model - INFO: Using beta=4 .
+2022-04-26 17:20:34 - model - INFO: Using beta=4 .
+2022-04-26 17:20:34 - model - INFO: Using beta=4 .
+2022-04-26 17:20:34 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-04-26 17:20:34 - algorithm - INFO: best_x evaluate, y=1.001180680051402
+2022-04-26 17:20:34 - algorithm - INFO: starting 1, line-solver.
+2022-04-26 17:20:35 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:35 - algorithm - INFO: best_x evaluate, y=1.169851238418982
+2022-04-26 17:20:35 - algorithm - INFO: starting 2, line-solver.
+2022-04-26 17:20:35 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:35 - algorithm - INFO: best_x evaluate, y=1.1953844007993952
+2022-04-26 17:20:35 - algorithm - INFO: starting 3, line-solver.
+2022-04-26 17:20:35 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:35 - algorithm - INFO: best_x evaluate, y=1.3511664551976648
+2022-04-26 17:20:35 - algorithm - INFO: starting 4, line-solver.
+2022-04-26 17:20:35 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:35 - algorithm - INFO: best_x evaluate, y=1.4560959746321727
+2022-04-26 17:20:35 - algorithm - INFO: starting 5, line-solver.
+2022-04-26 17:20:35 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:35 - algorithm - INFO: best_x evaluate, y=1.4926643468878251
+2022-04-26 17:20:35 - algorithm - INFO: starting 6, line-solver.
+2022-04-26 17:20:36 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:36 - algorithm - INFO: best_x evaluate, y=1.4973667444064738
+2022-04-26 17:20:36 - algorithm - INFO: starting 7, line-solver.
+2022-04-26 17:20:36 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:36 - algorithm - INFO: best_x evaluate, y=1.5241753203685886
+2022-04-26 17:20:36 - algorithm - INFO: starting 8, line-solver.
+2022-04-26 17:20:36 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:36 - algorithm - INFO: best_x evaluate, y=1.5506721713940361
+2022-04-26 17:20:36 - algorithm - INFO: starting 9, line-solver.
+2022-04-26 17:20:36 - algorithm - WARNING: No safe point found, choosing current line center.
+2022-04-26 17:20:36 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:36 - algorithm - INFO: best_x evaluate, y=1.5573346804175465
+2022-04-26 17:20:36 - algorithm - INFO: starting 10, line-solver.
+2022-04-26 17:20:37 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:37 - controller - INFO: Finalizing environment...
+2022-04-26 17:20:37 - controller - INFO: Finalizing: SafeRandomLineBO
+2022-04-26 17:20:37 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.QP.
+2022-04-26 17:20:37 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-04-26 17:20:37 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:37 - model - INFO: Using beta=4 .
+2022-04-26 17:20:37 - model - INFO: Using beta=4 .
+2022-04-26 17:20:37 - model - INFO: Using beta=4 .
+2022-04-26 17:20:37 - model - INFO: Using beta=4 .
+2022-04-26 17:20:37 - model - INFO: Using beta=4 .
+2022-04-26 17:20:37 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:37 - model - INFO: Using beta=4 .
+2022-04-26 17:20:37 - model - INFO: Using beta=4 .
+2022-04-26 17:20:37 - model - INFO: Using beta=4 .
+2022-04-26 17:20:37 - model - INFO: Using beta=4 .
+2022-04-26 17:20:37 - model - INFO: Using beta=4 .
+2022-04-26 17:20:37 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-04-26 17:20:37 - algorithm - INFO: best_x evaluate, y=1.0008695376734151
+2022-04-26 17:20:37 - algorithm - INFO: starting 1, line-solver.
+2022-04-26 17:20:37 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:37 - algorithm - INFO: best_x evaluate, y=1.3497207877641844
+2022-04-26 17:20:37 - algorithm - INFO: starting 2, line-solver.
+2022-04-26 17:20:37 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:37 - algorithm - INFO: best_x evaluate, y=1.3612572702279475
+2022-04-26 17:20:37 - algorithm - INFO: starting 3, line-solver.
+2022-04-26 17:20:37 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:37 - algorithm - INFO: best_x evaluate, y=1.3656446591816551
+2022-04-26 17:20:37 - algorithm - INFO: starting 4, line-solver.
+2022-04-26 17:20:38 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:38 - algorithm - INFO: best_x evaluate, y=1.3908894212271494
+2022-04-26 17:20:38 - algorithm - INFO: starting 5, line-solver.
+2022-04-26 17:20:38 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:38 - algorithm - INFO: best_x evaluate, y=1.4065114010276962
+2022-04-26 17:20:38 - algorithm - INFO: starting 6, line-solver.
+2022-04-26 17:20:38 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:38 - algorithm - INFO: best_x evaluate, y=1.4495367712641982
+2022-04-26 17:20:38 - algorithm - INFO: starting 7, line-solver.
+2022-04-26 17:20:38 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:38 - algorithm - INFO: best_x evaluate, y=1.503640332583947
+2022-04-26 17:20:38 - algorithm - INFO: starting 8, line-solver.
+2022-04-26 17:20:38 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:38 - algorithm - INFO: best_x evaluate, y=1.5231422596527753
+2022-04-26 17:20:38 - algorithm - INFO: starting 9, line-solver.
+2022-04-26 17:20:39 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:39 - algorithm - INFO: best_x evaluate, y=1.5290405982772164
+2022-04-26 17:20:39 - algorithm - INFO: starting 10, line-solver.
+2022-04-26 17:20:39 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:39 - controller - INFO: Finalizing environment...
+2022-04-26 17:20:39 - controller - INFO: Finalizing: SafeRandomLineBO
+2022-04-26 17:20:39 - controller - INFO: Initializing environment: febo.environment.benchmarks.functions.QP.
+2022-04-26 17:20:39 - controller - INFO: Initializing algorithm: SafeRandomLineBO.
+2022-04-26 17:20:39 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:39 - model - INFO: Using beta=4 .
+2022-04-26 17:20:39 - model - INFO: Using beta=4 .
+2022-04-26 17:20:39 - model - INFO: Using beta=4 .
+2022-04-26 17:20:39 - model - INFO: Using beta=4 .
+2022-04-26 17:20:39 - model - INFO: Using beta=4 .
+2022-04-26 17:20:39 - algorithm - INFO: Got 0 initial data points.
+2022-04-26 17:20:39 - model - INFO: Using beta=4 .
+2022-04-26 17:20:39 - model - INFO: Using beta=4 .
+2022-04-26 17:20:39 - model - INFO: Using beta=4 .
+2022-04-26 17:20:39 - model - INFO: Using beta=4 .
+2022-04-26 17:20:39 - model - INFO: Using beta=4 .
+2022-04-26 17:20:39 - controller - INFO: Starting optimization: SafeRandomLineBO
+2022-04-26 17:20:39 - algorithm - INFO: best_x evaluate, y=0.9993613727672858
+2022-04-26 17:20:39 - algorithm - INFO: starting 1, line-solver.
+2022-04-26 17:20:39 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:39 - algorithm - INFO: best_x evaluate, y=1.2815335656479436
+2022-04-26 17:20:39 - algorithm - INFO: starting 2, line-solver.
+2022-04-26 17:20:39 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:40 - algorithm - INFO: best_x evaluate, y=1.3874308999358624
+2022-04-26 17:20:40 - algorithm - INFO: starting 3, line-solver.
+2022-04-26 17:20:40 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:40 - algorithm - INFO: best_x evaluate, y=1.5926304313985795
+2022-04-26 17:20:40 - algorithm - INFO: starting 4, line-solver.
+2022-04-26 17:20:40 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:40 - algorithm - INFO: best_x evaluate, y=1.6063475700318932
+2022-04-26 17:20:40 - algorithm - INFO: starting 5, line-solver.
+2022-04-26 17:20:40 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:40 - algorithm - INFO: best_x evaluate, y=1.6162158500337171
+2022-04-26 17:20:40 - algorithm - INFO: starting 6, line-solver.
+2022-04-26 17:20:40 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:40 - algorithm - INFO: best_x evaluate, y=1.6679249712641806
+2022-04-26 17:20:40 - algorithm - INFO: starting 7, line-solver.
+2022-04-26 17:20:41 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:41 - algorithm - INFO: best_x evaluate, y=1.6797738937535964
+2022-04-26 17:20:41 - algorithm - INFO: starting 8, line-solver.
+2022-04-26 17:20:41 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:41 - algorithm - INFO: best_x evaluate, y=1.7176055815680167
+2022-04-26 17:20:41 - algorithm - INFO: starting 9, line-solver.
+2022-04-26 17:20:41 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:41 - algorithm - INFO: best_x evaluate, y=1.7206759549074961
+2022-04-26 17:20:41 - algorithm - INFO: starting 10, line-solver.
+2022-04-26 17:20:41 - algorithm - WARNING: Uncertainty at best_x reduced to 1%, stopping line.
+2022-04-26 17:20:41 - controller - INFO: Finalizing environment...
+2022-04-26 17:20:41 - controller - INFO: Finalizing: SafeRandomLineBO

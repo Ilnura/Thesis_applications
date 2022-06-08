@@ -1,0 +1,3 @@
+[console_scripts]
+febo = febo.main:main
+

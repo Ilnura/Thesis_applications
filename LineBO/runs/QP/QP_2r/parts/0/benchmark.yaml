@@ -1,0 +1,34 @@
+experiment.simple:
+  algorithm: febo.algorithms.SafeRandomLineBO
+models.gp:
+  kernels:
+  - - GPy.kern.RBF
+    - variance: 1.0
+      lengthscale: 0.4
+      ARD: false
+  # - experiment.simple:algorithm: febo.algorithms.SafeCoordinateLineBO
+  #   models.gp:kernels:
+  #     - - GPy.kern.RBF
+  #       - variance: 1.0
+  #         lengthscale: 0.4
+  #         ARD: false
+  # - experiment.simple:algorithm: febo.algorithms.SafeAscentLineBO
+  #   models.gp:kernels:
+  #     - - GPy.kern.RBF
+  #       - variance: 1.0
+  #         lengthscale: 0.4
+  #         ARD: false
+  # - experiment.simple:algorithm: febo.algorithms.safeopt.SwarmSafeOpt
+  # - experiment.simple:algorithm: febo.algorithms.NelderMead
+  # - experiment.simple:algorithm: febo.algorithms.Random
+  # - experiment.simple:algorithm: febo.algorithms.UCB
+  #   models.gp:kernels:
+  #     - - GPy.kern.RBF
+  #       - variance: 1.0
+  #         lengthscale: 0.2
+  #         ARD: false
+  # - experiment.simple:algorithm: febo.algorithms.spsa.SPSA
+  # - experiment.simple:algorithm: febo.algorithms.cmaes.CMAES
+  # fixed_environment: false
+
+
