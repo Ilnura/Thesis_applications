@@ -68,7 +68,7 @@ class Oracle:
     alphas: np.array = None             
     objective_grad: np.array = None     
     constraints_grad: np.array = None   
-    zeroth_order: bool = None           
+    zeroth_order: bool = True           
     n: int = 1                          
         
     def sample(self, x: np.array) -> None:
