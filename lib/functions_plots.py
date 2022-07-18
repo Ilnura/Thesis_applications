@@ -43,6 +43,8 @@ def plot_convergence_shaded(ax,
         m, fname, 
         colors=['royalblue', 'orange'], 
         legends=['LogBarrier', 'SafeOpt', r'Threshold'], 
+        linestyles = ['solid', 'dotted', 'dashed'],
+        linewidths = [1.5, 1., 1.],
         problem_name = 'None',
         fontsize=11, 
         labelsize=11):
@@ -64,16 +66,16 @@ def plot_convergence_shaded(ax,
             el_std = np.zeros(np.size(el))
         if m == "runtimes":
             ax.fill_between(range(2,5), 
-                             el_min, el_max,
+                              el_min, el_max,
                               alpha=0.2, edgecolor=None)
         else:
             ax.fill_between(range(np.size(el_avg)), 
-                             el_min, el_max,
+                              el_min, el_max,
                               alpha=0.2, edgecolor=None)
         if legends[i] == r'Threshold':
             attributes = dict(linestyle='dashed', color = 'orangered', linewidth= 2.)
         else:
-            linestyle = attributes = dict(linewidth = 1.)
+            attributes = dict(linestyle=linestyles[i], linewidth = linewidths[i])
          
         if m == "runtimes":
             ax.plot(range(2,5), 
@@ -88,7 +90,7 @@ def plot_convergence_shaded(ax,
                      runtimes = "Runtime")[m]
 
         if ax.is_last_row():
-            ax.set_xlabel(r"$t$", fontsize=fontsize)
+            ax.set_xlabel(r"$N$", fontsize=fontsize)
             if m == "runtimes":
                 ax.set_xlabel(r"$d$", fontsize=fontsize)
                 ax.text(2., 200., problem_name)
@@ -175,11 +177,33 @@ def plot_experiments_linebo(d, axes_col, problem_name, experiments_num, f,
                    'AscentLineBO',
                    'SafeOpt' 
                   ]
+            linestyles=['solid',  
+                        'dotted',
+                        'dashdot', 
+                        '-.', 
+                        'dashed'
+                        ]
+            linewidths=[2.,   
+                       1.5, 
+                       1., 
+                       1.5,
+                       1.
+                      ]
     else:
         legends=['LB-SGD',   
                    'RandomLineBO', 
                    'CoordinateLineBO', 
                    'AscentLineBO' 
+                  ]
+        linestyles=['solid', 
+                    'dotted',
+                    'dashdot', 
+                    'dashed' 
+                  ]
+        linewidths=[2.,   
+                   1.5, 
+                   1., 
+                   1.
                   ]
     with open('../runs/LB_SGD_' + problem_name + '_d' + str(d) + '.npy', 'rb') as file:
         LB_errors = np.load(file)
@@ -219,7 +243,7 @@ def plot_experiments_linebo(d, axes_col, problem_name, experiments_num, f,
         plot_convergence_shaded(axes_col[0], errors, 
                           experiments_num, 
                           colors=['royalblue', 'orange'], 
-                          legends=legends,
+                          legends=legends, linestyles=linestyles, linewidths=linewidths,
                           fname = "../runs/objective_" + problem_name +'_d' + str(d), m="values")
         axes_col[0].annotate(r'$d = {}$'.format(d), (0.7, 0.85), fontsize=11, xycoords='axes fraction')
 
@@ -227,12 +251,13 @@ def plot_experiments_linebo(d, axes_col, problem_name, experiments_num, f,
                           experiments_num, 
                           colors=['royalblue', 'orange', 'orangered'], 
                           legends=legends + [r'Threshold'],
+                          linestyles=linestyles + ['dashed'], linewidths=linewidths + [1.],
                           fname="../runs/constraints_" + problem_name +'_d' + str(d), m="constraints")
     else: 
         plot_convergence_shaded(axes_col, errors, 
                           experiments_num, 
                           colors=['royalblue', 'orange'], 
-                          legends=legends,
+                          legends=legends,  linestyles=linestyles, linewidths=linewidths,
                           fname = "../runs/objective_" + problem_name +'_d' + str(d), m="values")
         axes_col.annotate(r'$d = {}$'.format(d), (0.7, 0.85), fontsize=11, xycoords='axes fraction')
 
@@ -248,6 +273,9 @@ def plot_experiments(d, axes_col, problem_name, experiments_num):
         LB_errors = np.load(file)
         LB_cons = np.load(file) 
         LB_runtimes = np.load(file)
+        
+#     LB_errors = LB_errors[:][:n_iters]
+#     LB_errors = LB_errors[:][:n_iters]
 
     plot_convergence_shaded(axes_col[0], [LB_errors, SO_errors], 
                           experiments_num, 
@@ -261,6 +289,8 @@ def plot_experiments(d, axes_col, problem_name, experiments_num):
                           experiments_num, 
                           colors=['royalblue', 'orange', 'orangered'], 
                           legends=['LB-SGD', 'SafeOpt', r'Threshold'],
+                          linestyles=['solid', 'dashed', 'dashed'], 
+                          linewidths=[2., 1., 1.],
                           fname="../runs/constraints_" + problem_name +'_d' + str(d), m="constraints")
     
 def plot_runtimes(axes_col, problem_name, experiments_num, ds, figsize=(5, 5)):
@@ -298,7 +328,9 @@ def plot_runtimes(axes_col, problem_name, experiments_num, ds, figsize=(5, 5)):
     plot_convergence_shaded(axes_col, 
                             [LB_runtimes, SO_runtimes, LineBO_runtimes], 
                             experiments_num, 
-                            legends=['LB-SGD', 'SafeOpt', 'LineBO'],
+                            legends=['LB-SGD', 'SafeOpt', 'LineBO'], 
+                            linestyles=['solid', 'dashed', 'dashdot'], 
+                            linewidths=[2., 1., 1.],
                             m = "runtimes",  
                             fname = "../plots/runtimes_" + problem_name +'_d' + str(d),
                             problem_name = problem_name

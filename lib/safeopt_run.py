@@ -25,9 +25,17 @@ from safeopt import linearly_spaced_combinations, plot_3d_gp
 
 def run_SafeOpt(n_iters, 
                 f, h, 
-                 x00, x_opt, 
-                 d, m, 
-                 sigma, bnd_l, bnd_u, gp_var = 0.01, L = 0.25, gp_num_samples = 50, linear_cons = False):
+                x00, x_opt, 
+                d, m, 
+                sigma, 
+                bnd_l, bnd_u, 
+                gp_var = 0.01,
+                gp_var_cons = None,
+                L = 0.25, 
+                gp_num_samples = 50, 
+                linear_cons = False,
+                print_it = False,
+               method = None):
     """
     Runs SafeOpt method
     
@@ -48,6 +56,27 @@ def run_SafeOpt(n_iters,
         linear_cons: Bool, if we know that the constraints are linear, we can use linear kernel for them potentially
     """
     
+    # Measurement noise
+    noise_var = sigma ** 2
+    bounds = []
+    for i in range(d):
+        bounds.append([bnd_l, bnd_u])
+    if gp_var_cons == None:
+        gp_var_cons = gp_var
+    # Define Kernel
+    kernel = GPy.kern.RBF(input_dim=len(bounds), 
+                          variance=gp_var, 
+#                           lengthscale=1.0,
+                          ARD=True)
+    kernel_cons = GPy.kern.RBF(input_dim=len(bounds), 
+                          variance=gp_var_cons, 
+#                           lengthscale=1.0,
+                          ARD=True)
+    kernel_linear = GPy.kern.Linear(input_dim=len(bounds))
+
+    # Initial safe point
+#     x0 = np.array([x00])
+    
     x = np.array([x00])
     y0 = np.array([[-f(x00)]])
     ys = -h(x00)
@@ -59,20 +88,29 @@ def run_SafeOpt(n_iters,
     if linear_cons:
         gp_cons = [GPy.models.GPRegression(x, 
                                   y, 
-                                  noise_var=gp_var**2) for y in y0m[1:]]
+                                  kernel_linear,
+                                  noise_var=noise_var) for y in y0m[1:]]
         gp_obj = [GPy.models.GPRegression(x, 
                                   y0, 
-                                  noise_var=gp_var**2)]
+                                  kernel,
+                                  noise_var=noise_var)]
         gp = gp_obj + gp_cons
     
     else: 
-        gp = [GPy.models.GPRegression(x, 
+        gp_cons = [GPy.models.GPRegression(x, 
                                   y, 
-                                  noise_var=gp_var**2) for y in y0m]
+                                  kernel_cons,
+                                  noise_var=noise_var) for y in y0m[1:]]
+        gp_obj = [GPy.models.GPRegression(x, 
+                                  y0, 
+                                  kernel,
+                                  noise_var=noise_var)]
+        gp = gp_obj + gp_cons
+#         gp = [GPy.models.GPRegression(x, 
+#                                       y, 
+#                                       kernel,
+#                                       noise_var=noise_var) for y in y0m]
 
-    bounds = []
-    for i in range(d):
-        bounds.append([bnd_l, bnd_u])
 
     fmin_list = [-np.inf]
     lipschitz_list = [L]
@@ -80,13 +118,14 @@ def run_SafeOpt(n_iters,
         fmin_list.append(0.)
         lipschitz_list.append(1.)
         
-    if d <= 2:
+    if d <= 2 and method == None:
         parameter_set = linearly_spaced_combinations(bounds, num_samples=gp_num_samples)
         opt = SafeOpt(gp, 
                       parameter_set, 
                       fmin=fmin_list
-                     ,lipschitz=lipschitz_list)
-    elif d > 2:
+#                     ,lipschitz=lipschitz_list
+                     )
+    elif d > 2 or method == 'SOS':
         opt = SafeOptSwarm(gp,
                            bounds=bounds, 
                            fmin=fmin_list
@@ -99,9 +138,16 @@ def run_SafeOpt(n_iters,
     constraints = []
     errors_so = []
     cons_so = []
+    x_prev = x00
+    mode = 'normal'
     for i in range(n_iters):
+#         if mode == 'normal':
         x = opt.optimize()
-        y0 = np.array([[-f(x) ]]) + np.random.normal(0, sigma)
+#         else:
+#             x = x_prev
+        if print_it:
+            print('i=',i, 'x =', x)
+        y0 = np.array([[-f(x)]]) + np.random.normal(0, sigma)
         ys = -h(x)  + np.random.normal(0, sigma, m)
         if m > 1:
             y0m = [y0] + [np.array([[ys[i]]]) for i in range(0, m)]
@@ -122,6 +168,10 @@ def run_SafeOpt(n_iters,
         errors_so.append(best_value)
         worst_constraint = np.max(constraints)
         cons_so.append(worst_constraint)
+#         if np.linalg.norm(x_prev - x) <= 0.00001:
+#             mode = 'repeat'
+        x_prev = x
+     
         
     x_traj = np.array(x_traj)
     errors_so = np.array(errors_so)
