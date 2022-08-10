@@ -83,8 +83,8 @@ def plot_convergence_shaded(ax,
         else:
             ax.plot(range(np.size(el_avg)), 
                     el_avg, label=legends[i], **attributes)
-        label = dict(accuracy=r"$|f^0(x_t) - f^0(x^*)|$""\n(Accuracy)", 
-                     constraints = r"$\max_i f^i(x_t)$""\n(Constraints)",
+        label = dict(accuracy=r"$|f^0(x_t) - f^0(x^*)|$""(Accuracy)", 
+                     constraints = r"$\max_i f^i(x_t)$""(Constraints)",
                      values = r"$f^0(x_t)$""\n(Values)",
                      grad_norms=r"$\|\nabla f(x_t)\|$""\n(Gradients Norm)",
                      runtimes = "Runtime")[m]
@@ -95,8 +95,8 @@ def plot_convergence_shaded(ax,
                 ax.set_xlabel(r"$d$", fontsize=fontsize)
                 ax.text(2., 200., problem_name)
                 ax.set_xticks([ 2, 3, 4])
-        if ax.is_first_col():
-            ax.set_ylabel(label, fontsize=fontsize)
+#         if ax.is_first_col():
+        ax.set_ylabel(label, fontsize=fontsize)
             
             
 def read_LineBO(file, methods_num, f):

@@ -1,1 +1,0 @@
-https://github.com/automl/HPOlib2/tarball/master#egg=hpolib2-0.0.1

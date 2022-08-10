@@ -69,7 +69,8 @@ class Oracle:
     objective_grad: np.array = None     
     constraints_grad: np.array = None   
     zeroth_order: bool = True           
-    n: int = 1                          
+    n: int = 1
+    Ms: np.array = None
         
     def sample(self, x: np.array) -> None:
         self.objective_value = self.f(x) + np.random.normal(0, self.sigma / self.n**0.5)
@@ -77,33 +78,31 @@ class Oracle:
         self.df = nd.Gradient(self.f)(x)
         self.dh = nd.Gradient(self.h)(x)
         if self.zeroth_order:
-            self.hat_sigma = self.d * (self.sigma / self.nu + self.nu)
+            self.hat_sigma = 2 * self.d * (self.sigma / self.nu) / self.n**0.5
             for j in range(self.n):
                 s_unnormalized = np.random.normal(0, 1, self.d)
                 s = s_unnormalized / np.linalg.norm(s_unnormalized)
                 if j == 0:
-                    self.objective_grad = (self.d *
-                                       (self.f(x + self.nu * s) 
-                                        + np.random.normal(0, self.sigma) - self.objective_value)
-                                        / self.nu) * s / self.n
-                    self.constraints_grad = (np.outer((self.d *
-                                        (self.h(x + self.nu * s) + np.random.normal(0, self.sigma, self.m) -
-                                        self.constraints_values) / self.nu), s)) / self.n
+                    self.objective_grad = (self.d * (self.f(x + self.nu * s) 
+                                                     + np.random.normal(0, self.sigma)
+                                                     - self.objective_value) / self.nu) * s / self.n 
+                    self.constraints_grad = (np.outer((self.d * (self.h(x + self.nu * s) 
+                                                        + np.random.normal(0, self.sigma, self.m)
+                                                        - self.constraints_values)/ self.nu), s)) / self.n 
                 else:
-                    self.objective_grad += (self.d *
-                                           (self.f(x + self.nu * s) 
-                                            + np.random.normal(0, self.sigma) - self.objective_value)
-                                           / self.nu) * s / self.n
-                    self.constraints_grad += (np.outer((self.d *
-                                            (self.h(x + self.nu * s) + np.random.normal(0, self.sigma, self.m) -
-                                            self.constraints_values) / self.nu), s)) / self.n
-                self.alphas = - self.constraints_values -\
-                    (np.log(1. / self.delta))**0.5 * self.sigma / self.n**0.5 * np.ones(self.m) - self.nu * np.ones(self.m)
+                    self.objective_grad += (self.d * (self.f(x + self.nu * s) 
+                                                     + np.random.normal(0, self.sigma)
+                                                     - self.objective_value) / self.nu) * s / self.n 
+                    self.constraints_grad += (np.outer((self.d * (self.h(x + self.nu * s) 
+                                                        + np.random.normal(0, self.sigma, self.m)
+                                                        - self.constraints_values)/ self.nu), s)) / self.n 
+                self.alphas = - self.constraints_values - \
+                    (np.log(1. / self.delta))**0.5 * self.sigma / self.n**0.5 * np.ones(self.m) - self.nu * self.Ms
         else:
             self.objective_grad = self.df + np.random.normal(0, self.hat_sigma / self.n**0.5, self.d)
             self.constraints_grad = self.dh + np.random.normal(0, self.hat_sigma / self.n**0.5, (self.m, self.d))
-            self.alphas = - self.constraints_values - \
-                (np.log(1. / self.delta))**0.5 * self.sigma / self.n**0.5 / 2. * np.ones(self.m)
+            self.alphas = min(- self.constraints_values - \
+                (np.log(1. / self.delta))**0.5 * self.sigma / self.n**0.5 * np.ones(self.m) - nu**2 * self.Ms, 0)
 
 
 @dataclass

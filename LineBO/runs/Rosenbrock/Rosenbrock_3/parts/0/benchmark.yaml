@@ -1,8 +1,0 @@
-experiment.simple:
-  algorithm: febo.algorithms.SafeRandomLineBO
-models.gp:
-  kernels:
-  - - GPy.kern.RBF
-    - variance: 1.0
-      lengthscale: 0.4
-      ARD: false
